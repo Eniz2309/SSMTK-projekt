@@ -1,6 +1,6 @@
 # SSMTK-projekt
 Ovdje će biti uploadani materijali za SSMTK projekt tema 2
-Posljednje izmjene 27.11.2024
+Posljednje izmjene 16.12.2024
 
 
 Update 21.11.2024 (termin 1):
