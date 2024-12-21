@@ -1,5 +1,10 @@
 # SISTEMI I SERVISI MOBILNIH TELEKOMUNIKACIJA 
 PROJEKTNI ZADATAK - IZVJEŠTAJ
+Studenti:
+Eniz Balihodžić
+Lejla Ćosić
+Adna Pugonja
+
 
 Ovdje će biti uploadani materijali za SSMTK projekt tema 2
 Posljednje izmjene 16.12.2024
