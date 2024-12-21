@@ -32,6 +32,18 @@ U osnovi, uređaj se ponaša kao 5G *stand-alone* mreža, međutim podržava i n
 # Realizacija *VoLTE/VoNR* mreže
 
 ## *VoLTE* mreža
+Voice over LTE (VoLTE) predstavlja tehnologiju koja omogućava realizaciju glasovnih poziva preko LTE (4G) mreže korištenjem IP protokola. Za razliku od tradicionalnih GSM/UMTS mreža koje koriste circuit-switched (CS) pristup za pozive, VoLTE koristi packet-switched (PS) pristup preko LTE infrastrukture. Ovaj koncept uvodi niz prednosti, uključujući poboljšan kvalitet glasa, efikasnije korištenje mrežnih resursa i integraciju glasovnih i podatkovnih usluga.
+
+VoLTE je baziran na IMS (IP Multimedia Subsystem) platformi, koja omogućava prijenos glasovnih poziva kao podatkovnih paketa putem IP mreže. U standardnom VoLTE pozivu, korisnićki uređaj uspostavlja vezu s IMS jezgrom mreže, gdje se obavljaju funkcije kao što su signalizacija, autentifikacija i obrada poziva. Ključni protokoli korišteni u VoLTE pozivima uključuju SIP (Session Initiation Protocol), koji se koristi za signalizaciju i uspostavljanje, upravljanje i prekidanje poziva; RTP (Real-Time Protocol), koji omogućava prijenos glasovnih podataka u realnom vremenu; te QoS (Quality of Service), koji osigurava prioritet glasovnih paketa u mreži radi postizanja visokog kvaliteta usluge.
+
+VoLTE donosi brojne prednosti. Kvalitet zvuka je bolji zahvaljujući upotrebi naprednih audio kodeka poput AMR-WB (Adaptive Multi-Rate Wideband), koji pružaju HD Voice kvalitet i osiguravaju širi frekvencijski opseg i prirodniji zvuk. VoLTE omogućava korisnicima da obavljaju glasovne pozive i istovremeno koriste mobilne podatke bez prekida. Efikasnije korištenje spektra omogućeno je optimiziranom LTE infrastrukturom, što znači da VoLTE pozivi koriste manje mrežnih resursa u poređenju s klasičnim CS pozivima. Vrijeme uspostave poziva je kraće u odnosu na 3G pozive zahvaljujući efikasnijoj signalizaciji. VoLTE također predstavlja prijelaznu tačku ka novim standardima poput VoNR (Voice over New Radio).
+
+Međutim, postoje i izazovi u implementaciji VoLTE tehnologije. Efikasno funkcionisanje VoLTE usluge zavisi od potpunog usvajanja IMS platforme od strane mobilnih operatera. Kompatibilnost uređaja također može predstavljati problem jer korisnićki uređaji moraju podržavati VoLTE kako bi mogli koristiti ovu uslugu. Stariji modeli telefona često nisu kompatibilni. Održavanje visokog kvaliteta usluge zahtijeva preciznu kontrolu mrežnih resursa, posebno u uvjetima velike zagušenosti mreže.
+
+VoLTE je danas ključna tehnologija za mobilne operatere, posebno u zemljama gdje se LTE mreža koristi kao osnovna infrastruktura za mobilne usluge. U okviru ovog rada, VoLTE se koristi za implementaciju aplikacije za informisanje o stanju na putevima, gdje se putem glasovnih poziva prosljeđuju audio obavještenja korisnicima. VoLTE omogućava da se informacije prenesu s visokim kvalitetom zvuka i minimalnim kašnjenjem, što je od velike važnosti za sigurnost i zadovoljstvo korisnika u saobraćaju.
+
+
+
 Update 21.11.2024 (termin 1):
 
 - spajanje bazne stanice, upoznavanje sa uređajem, analiza tutorijala na amarisoft tech academy
