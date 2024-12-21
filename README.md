@@ -1,4 +1,5 @@
-# SSMTK-projekt
+# SISTEMI I SERVISI MOBILNIH TELEKOMUNIKACIJA #
+# PROJEKTNI ZADATAK - IZVJEŠTAJ #
 Ovdje će biti uploadani materijali za SSMTK projekt tema 2
 Posljednje izmjene 16.12.2024
 
