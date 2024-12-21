@@ -2,7 +2,7 @@
 Ovdje će biti uploadani materijali za SSMTK projekt tema 2
 Posljednje izmjene 16.12.2024
 
-
+# BOLDIRANO #
 Update 21.11.2024 (termin 1):
 
 - spajanje bazne stanice, upoznavanje sa uređajem, analiza tutorijala na amarisoft tech academy
