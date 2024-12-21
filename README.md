@@ -15,6 +15,7 @@ Cilj ovog rada je razviti aplikaciju koja koristi VoLTE i VoNR tehnologije za pr
 # Amarisoft CallBox Mini #
 U ovom poglavlju će biti predstavljena i analizirana oprema koja će biti korištena za realizaciju projektnog zadatka. Glavna komponenta za izvedbu ovog sistema jeste Amarisoft Callbox mini bazna stanica. Njena osnovna funkcija jeste testiranje uređaja koji se koriste u 4G i 5G mrežnim tehnologijama.
 
+![arhitektura-calmini](https://github.com/user-attachments/assets/921cd9b3-bcf9-43e3-91f7-03fc8d93dab7)
 
 
 Update 21.11.2024 (termin 1):
