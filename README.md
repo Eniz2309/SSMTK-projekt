@@ -31,6 +31,7 @@ U osnovi, uređaj se ponaša kao 5G *stand-alone* mreža, međutim podržava i n
 
 # Realizacija *VoLTE/VoNR* mreže
 
+## *VoLTE* mreža
 Update 21.11.2024 (termin 1):
 
 - spajanje bazne stanice, upoznavanje sa uređajem, analiza tutorijala na amarisoft tech academy
