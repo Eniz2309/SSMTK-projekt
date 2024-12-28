@@ -17,6 +17,29 @@ Jedan od ključnih izazova u modernom društvu jeste omogućiti pravovremeno inf
 
 Cilj ovog rada je razviti aplikaciju koja koristi VoLTE i VoNR tehnologije za pružanje glasovnih obavještenja o stanju na cestama, uz analizu kompletne signalizacije i performansi mreže. Rad također istražuje mogućnosti implementacije ovakvog sistema u eksperimentalnoj 4G/5G mreži.
 
+# Postavka projektnog zadatka
+
+
+Realizirati mrežu sa podrškom za VoLTE/VoNR uslugu sačinjenu od korisničkih uređaja
+(mobitela) i eksperimentalne 4G/5G bazne stanice, u kojoj svaki korisnički uređaj ima
+dodijeljen jedinstven javni identitet (broj telefona).
+
+• Testirati VoLTE i VoNR usluge između svih korisničkih uređaja uz snimanje i analizu
+kompletnog signalizacijskog saobraćaja (4G/5G protokoli, IMS/SIP).
+
+• Implementirati aplikaciju za periodično preuzimanje i konverziju zvučnih obavještenja o
+stanju na putevima sa web stranice BIHAMK-a.
+
+• Konfigurisati VoIP klijenta (npr. pjsua) za reprodukciju zvučnog obavještenja i povezati ga
+na eksperimentalnu 4G/5G mrežu.
+
+• Testirati VoLTE/VoNR baziranu uslugu informisanja o stanju na putevima uz snimanje i
+analizu IMS/SIP signalizacijskog saobraćaja.
+
+
+
+
+
 # Amarisoft CallBox Mini #
 U ovom poglavlju će biti predstavljena i analizirana oprema koja će biti korištena za realizaciju projektnog zadatka. Glavna komponenta za izvedbu ovog sistema jeste Amarisoft Callbox mini bazna stanica. Njena osnovna funkcija jeste testiranje uređaja koji se koriste u 4G i 5G mrežnim tehnologijama. Na narednoj slici je prikzana arhitektura Amarisoft CallBox mini uređaja. 
 
@@ -43,17 +66,3 @@ Međutim, postoje i izazovi u implementaciji VoLTE tehnologije. Efikasno funkcio
 VoLTE je danas ključna tehnologija za mobilne operatere, posebno u zemljama gdje se LTE mreža koristi kao osnovna infrastruktura za mobilne usluge. U okviru ovog rada, VoLTE se koristi za implementaciju aplikacije za informisanje o stanju na putevima, gdje se putem glasovnih poziva prosljeđuju audio obavještenja korisnicima. VoLTE omogućava da se informacije prenesu s visokim kvalitetom zvuka i minimalnim kašnjenjem, što je od velike važnosti za sigurnost i zadovoljstvo korisnika u saobraćaju.
 
 
-# Postavka projektnog zadatka
-
-
-Realizirati mrežu sa podrškom za VoLTE/VoNR uslugu sačinjenu od korisničkih uređaja
-(mobitela) i eksperimentalne 4G/5G bazne stanice, u kojoj svaki korisnički uređaj ima
-dodijeljen jedinstven javni identitet (broj telefona).
-• Testirati VoLTE i VoNR usluge između svih korisničkih uređaja uz snimanje i analizu
-kompletnog signalizacijskog saobraćaja (4G/5G protokoli, IMS/SIP).
-• Implementirati aplikaciju za periodično preuzimanje i konverziju zvučnih obavještenja o
-stanju na putevima sa web stranice BIHAMK-a.
-• Konfigurisati VoIP klijenta (npr. pjsua) za reprodukciju zvučnog obavještenja i povezati ga
-na eksperimentalnu 4G/5G mrežu.
-• Testirati VoLTE/VoNR baziranu uslugu informisanja o stanju na putevima uz snimanje i
-analizu IMS/SIP signalizacijskog saobraćaja.
