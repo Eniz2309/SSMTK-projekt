@@ -104,6 +104,16 @@ U prvom koraku realizacije, potrebno je povezati i konfigurisati uređaje koji �
   <em>Shematski prikaz povezivanja uređaja u mrežu</em>
 </p>
 
+Operativni sistem koji se nalazi na baznoj stanici je *unix-like* pa se sva manipulacija baznom stanicom vrši preko terminala. Nakon pokretanja bazne stanice, potrebeno je unijeti kredencijale. OVDJE STAVITI SLIKU
+Za ispravan rad bazne stanice, pored fizičkog pokretanja, potrebno je i softverski pokrenuti njene servise. Pokretanje se vrši preko sljedeće komande:
+<div align="center">
+  <pre>
+  <code>
+*service lte start*
+  </code>
+  </pre>
+</div>
+
 
 Baznoj stanici je moguće pristupiti preko *remote API*-ja, korištenjem *remote PC*-a. Bitno je napomenuti da bazna stanica i računar moraju biti povezani na istu mrežu. Da bi se pristupilo baznoj stanici *remote* potrebno je korsititi bilo koji *web browser* gdje se unosi sljedeća komanda:
 
