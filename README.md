@@ -43,25 +43,4 @@ Međutim, postoje i izazovi u implementaciji VoLTE tehnologije. Efikasno funkcio
 VoLTE je danas ključna tehnologija za mobilne operatere, posebno u zemljama gdje se LTE mreža koristi kao osnovna infrastruktura za mobilne usluge. U okviru ovog rada, VoLTE se koristi za implementaciju aplikacije za informisanje o stanju na putevima, gdje se putem glasovnih poziva prosljeđuju audio obavještenja korisnicima. VoLTE omogućava da se informacije prenesu s visokim kvalitetom zvuka i minimalnim kašnjenjem, što je od velike važnosti za sigurnost i zadovoljstvo korisnika u saobraćaju.
 
 
-
-Update 21.11.2024 (termin 1):
-
-- spajanje bazne stanice, upoznavanje sa uređajem, analiza tutorijala na amarisoft tech academy
-- osposobljena 2 mobilna uređaja za VoLTE pozive
-- konfiguracija ue-db.cfg fajlova, mijenjanje pozivnih brojeva mobitela
-
-
-Update 12.12.2024 (termin 2):
-
-- Analiziran tutorijal: https://tech-academy.amarisoft.com/appnote_ims.doc#ccb4ba1f1744a74223b3d1fae8b6f410
-- Izvršeno povezivanje pozivnih brojeva sa IMEI-ima mobilnih uređaja ( *#06# )
-- Pročitali IMEI-e sa mobilnih uređaja i povezali ih sa pozivnim brojevima
-- Promjene izvršene u ue-db-ims.cfg
-
-
-Update 16.12.2024 (termin 1.1):
-
-- Analizirani tutorijali na Amarisoft tech academy u vezi VoLTE/VoNR konfiguracije
-- Dodijeljeni trunk parametri u sip_add u konfiguracijskom fajlu
-- Pokušaj konfiguracije SIP ( dodavanje SIP u ims.cfg fajl, pokušaj dodavanja IP adrese )
-- Preko komande _tcpdump_ snimali saobraćaj na interfejsu lo, prebacivali .pcap fajlove na laptop preko scp komande, analizirani fajlovi u Wiresharku
+# Postavka projektnog zadatka
