@@ -106,3 +106,11 @@ U prvom koraku realizacije, potrebno je povezati i konfigurisati uređaje koji �
 
 
 Baznoj stanici je moguće pristupiti preko *remote API*-ja, korištenjem *remote PC*-a. Bitno je napomenuti da bazna stanica i računar moraju biti povezani na istu mrežu. 
+
+<div align="center">
+  <pre>
+  <code>
+ping 8.8.8.8
+  </code>
+  </pre>
+</div>
