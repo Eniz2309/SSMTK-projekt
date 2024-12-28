@@ -87,3 +87,8 @@ Ključne Karakteristike PJSUA:
 
 
 # Konfiguracija i povezivanje opreme
+
+U prvom koraku realizacije, potrebno je povezati i konfigurisati uređaje koji će se koristiti u mreži. Za izradu ovog projektnog zadatka biće korištena sljedeća oprema:
+- Amarisoft CallBox Mini
+- PC računar ( za remote pristup baznoj stanici )
+- 2 mobilna uređaja
