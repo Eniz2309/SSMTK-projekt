@@ -126,9 +126,7 @@ Ukoliko se vrši određena modifikacija konfiguracijskih fajlova, da bi se njen 
 <div align="center">
   <pre>
   <code>
-systemctl restart lte
-       ili
-service lte restart
+systemctl restart lte ili service lte restart
   </code>
   </pre>
 </div>
