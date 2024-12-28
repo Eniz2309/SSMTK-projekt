@@ -68,7 +68,7 @@ VoLTE je danas ključna tehnologija za mobilne operatere, posebno u zemljama gdj
 
 # *PJSUA* (*PJSIP USER AGENT*)
 
-PJSUA je komandna linija SIP korisničkog agenta (softphone) temeljen na PJSIP open-source SIP biblioteci. Iako se koristi kao referentna implementacija za PJSIP, PJNATH i PJMEDIA, PJSUA nudi bogat skup funkcionalnosti za testiranje i rješavanje problema u SIP instalacijama. 
+PJSUA je komandna linija SIP korisničkog agenta (*softphone*) temeljen na PJSIP open-source SIP biblioteci. Iako se koristi kao referentna implementacija za PJSIP, PJNATH i PJMEDIA, PJSUA nudi bogat skup funkcionalnosti za testiranje i rješavanje problema u SIP instalacijama. 
 PJSIP
 
 Ključne Karakteristike PJSUA:
