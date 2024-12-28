@@ -44,3 +44,16 @@ VoLTE je danas ključna tehnologija za mobilne operatere, posebno u zemljama gdj
 
 
 # Postavka projektnog zadatka
+
+
+Realizirati mrežu sa podrškom za VoLTE/VoNR uslugu sačinjenu od korisničkih uređaja
+(mobitela) i eksperimentalne 4G/5G bazne stanice, u kojoj svaki korisnički uređaj ima
+dodijeljen jedinstven javni identitet (broj telefona).
+• Testirati VoLTE i VoNR usluge između svih korisničkih uređaja uz snimanje i analizu
+kompletnog signalizacijskog saobraćaja (4G/5G protokoli, IMS/SIP).
+• Implementirati aplikaciju za periodično preuzimanje i konverziju zvučnih obavještenja o
+stanju na putevima sa web stranice BIHAMK-a.
+• Konfigurisati VoIP klijenta (npr. pjsua) za reprodukciju zvučnog obavještenja i povezati ga
+na eksperimentalnu 4G/5G mrežu.
+• Testirati VoLTE/VoNR baziranu uslugu informisanja o stanju na putevima uz snimanje i
+analizu IMS/SIP signalizacijskog saobraćaja.
