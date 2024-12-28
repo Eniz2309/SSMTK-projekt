@@ -103,3 +103,6 @@ U prvom koraku realizacije, potrebno je povezati i konfigurisati uređaje koji �
 <p align="center">
   <em>Shematski prikaz povezivanja uređaja u mrežu</em>
 </p>
+
+
+Baznoj stanici je moguće pristupiti preko *remote API*-ja, korištenjem *remote PC*-a. Bitno je napomenuti da bazna stanica i računar moraju biti povezani na istu mrežu. 
