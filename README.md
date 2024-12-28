@@ -66,3 +66,4 @@ Međutim, postoje i izazovi u implementaciji VoLTE tehnologije. Efikasno funkcio
 VoLTE je danas ključna tehnologija za mobilne operatere, posebno u zemljama gdje se LTE mreža koristi kao osnovna infrastruktura za mobilne usluge. U okviru ovog rada, VoLTE se koristi za implementaciju aplikacije za informisanje o stanju na putevima, gdje se putem glasovnih poziva prosljeđuju audio obavještenja korisnicima. VoLTE omogućava da se informacije prenesu s visokim kvalitetom zvuka i minimalnim kašnjenjem, što je od velike važnosti za sigurnost i zadovoljstvo korisnika u saobraćaju.
 
 
+# *PJSUA* (*PJSIP USER AGENT*)
