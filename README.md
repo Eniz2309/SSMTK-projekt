@@ -92,3 +92,8 @@ U prvom koraku realizacije, potrebno je povezati i konfigurisati uređaje koji �
 - Amarisoft CallBox Mini
 - PC računar ( za remote pristup baznoj stanici )
 - 2 mobilna uređaja
+
+
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/amarisoft_konekcija.png" alt="Shematski prikaz povezivanje uređaja u mrežu"/>
+</p>
