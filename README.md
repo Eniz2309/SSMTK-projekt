@@ -127,7 +127,9 @@ Ukoliko se vrši određena modifikacija konfiguracijskih fajlova, da bi se njen 
   <pre>
   <code>
 systemctl restart lte
-    ili
+    
+       ili
+    
 service lte status
   </code>
   </pre>
