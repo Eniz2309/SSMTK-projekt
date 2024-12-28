@@ -131,7 +131,7 @@ X.X.X.X/lte
 
 OVDJE TREBA SLIKA REMOTE PRISTUPA
 
-Ukoliko je potrebno saznati IP adrese bazne stanice ili naziv nekog od *network interface*-a to je moguće pronaći preko *ifconfig* komande.
+Ukoliko je potrebno saznati IP adrese bazne stanice ili naziv nekog od *network interface*-a to je moguće pronaći preko *ifconfig* komande. IP adresa za *remote* pristup se uglavnom nalazi u *ens2p0* mrežnom *interface*-u.
 
 
 # *PJSUA* (*PJSIP USER AGENT*)
