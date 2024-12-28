@@ -97,3 +97,6 @@ U prvom koraku realizacije, potrebno je povezati i konfigurisati uređaje koji �
 <p align="center">
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/amarisoft_konekcija.png" alt="Shematski prikaz povezivanje uređaja u mrežu"/>
 </p>
+<p align="center">
+  <em>Shematski prikaz povezivanja uređaja u mrežu</em>
+</p>
