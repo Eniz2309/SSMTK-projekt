@@ -109,7 +109,7 @@ Za ispravan rad bazne stanice, pored fizičkog pokretanja, potrebno je i softver
 <div align="center">
   <pre>
   <code>
-*service lte start*
+service lte start
   </code>
   </pre>
 </div>
