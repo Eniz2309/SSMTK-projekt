@@ -110,7 +110,7 @@ Baznoj stanici je moguće pristupiti preko *remote API*-ja, korištenjem *remote
 <div align="center">
   <pre>
   <code>
-ping 8.8.8.8
+X.X.X.X/lte
   </code>
   </pre>
 </div>
