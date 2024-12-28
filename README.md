@@ -105,7 +105,7 @@ U prvom koraku realizacije, potrebno je povezati i konfigurisati uređaje koji �
 </p>
 
 
-Baznoj stanici je moguće pristupiti preko *remote API*-ja, korištenjem *remote PC*-a. Bitno je napomenuti da bazna stanica i računar moraju biti povezani na istu mrežu. 
+Baznoj stanici je moguće pristupiti preko *remote API*-ja, korištenjem *remote PC*-a. Bitno je napomenuti da bazna stanica i računar moraju biti povezani na istu mrežu. Da bi se pristupilo baznoj stanici *remote* potrebno je korsititi bilo koji *web browser* gdje se unosi sljedeća komanda:
 
 <div align="center">
   <pre>
@@ -114,3 +114,5 @@ X.X.X.X/lte
   </code>
   </pre>
 </div>
+
+, gdje je *X.X.X.X* IP adresa bazne stanice.
