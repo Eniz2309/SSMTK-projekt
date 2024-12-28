@@ -114,7 +114,16 @@ service lte start
   </code>
   </pre>
 </div>
+Nakon pokretanja servisa, moguće je i provjeriti status isti preko sljedeće komande:
+<div align="center">
+  <pre>
+  <code>
+service lte status
+  </code>
+  </pre>
+</div>
 
+OVDJE STAVITI SS STATUSA
 
 Baznoj stanici je moguće pristupiti preko *remote API*-ja, korištenjem *remote PC*-a. Bitno je napomenuti da bazna stanica i računar moraju biti povezani na istu mrežu. Da bi se pristupilo baznoj stanici *remote* potrebno je korsititi bilo koji *web browser* gdje se unosi sljedeća komanda:
 
