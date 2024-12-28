@@ -158,3 +158,10 @@ Ključne Karakteristike PJSUA:
 
 
 O wiresharku i pcap
+
+
+
+
+
+
+# Zaključak
