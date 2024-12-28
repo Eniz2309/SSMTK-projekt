@@ -107,6 +107,16 @@ service lte status
 
 OVDJE STAVITI SS STATUSA
 
+
+Ukoliko se vrši određena modifikacija konfiguracijskih fajlova, da bi se njen rad ažurirao potrebno je restartovati servise narednim komandama:
+<div align="center">
+  <pre>
+  <code>
+systemctl restart lte ili service lte restart
+  </code>
+  </pre>
+</div>
+
 Baznoj stanici je moguće pristupiti preko *remote API*-ja, korištenjem *remote PC*-a. Bitno je napomenuti da bazna stanica i računar moraju biti povezani na istu mrežu. Da bi se pristupilo baznoj stanici *remote* potrebno je korsititi bilo koji *web browser* gdje se unosi sljedeća komanda:
 
 <div align="center">
@@ -122,14 +132,6 @@ X.X.X.X/lte
 OVDJE TREBA SLIKA REMOTE PRISTUPA
 
 
-Ukoliko se vrši određena modifikacija konfiguracijskih fajlova, da bi se njen rad ažurirao potrebno je restartovati servise narednim komandama:
-<div align="center">
-  <pre>
-  <code>
-systemctl restart lte ili service lte restart
-  </code>
-  </pre>
-</div>
 
 
 # *PJSUA* (*PJSIP USER AGENT*)
