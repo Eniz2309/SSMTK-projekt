@@ -119,7 +119,19 @@ X.X.X.X/lte
 
 , gdje je *X.X.X.X* IP adresa bazne stanice.
 
+OVDJE TREBA SLIKA REMOTE PRISTUPA
 
+
+Ukoliko se vrši određena modifikacija konfiguracijskih fajlova, da bi se njen rad ažurirao potrebno je restartovati servise narednim komandama:
+<div align="center">
+  <pre>
+  <code>
+systemctl restart lte
+    ili
+service lte status
+  </code>
+  </pre>
+</div>
 
 
 # *PJSUA* (*PJSIP USER AGENT*)
