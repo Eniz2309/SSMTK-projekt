@@ -77,7 +77,7 @@ Ključne Karakteristike PJSUA:
 
 - Više SIP Poziva: Podržava simultano upravljanje više SIP poziva, uključujući konferencijske pozive.
 
-- Instant Messaging i Prisutnost: Omogućava slanje instant poruka i praćenje prisutnosti korisnika.
+- *Instant Messaging* i Prisutnost: Omogućava slanje instant poruka i praćenje prisutnosti korisnika.
 
 - Napredne Medijske Funkcije: Podrška za različite audio kodeke, adaptivni jitter buffer, automatsko uklanjanje eha (AEC), PLC, VAD, STUN, ICE i druge funkcionalnosti.
 
