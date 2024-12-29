@@ -170,6 +170,7 @@ Konfiguracijski fajlovi (*.cfg*) svakih od prethodno navedenih modula se nalaze 
 
 ## Postavke *UE* baze 
 
+*UE* baza predstavlja bazu podataka gdje su smješteni podaci o mobilnim uređajima koji su povezani na baznu stanicu. Konfiguracijski fajle ove baze je *ue-db-ims.cfg*.
 
 ## Postavke *VoLTE* mreže na mobilnom uređaju
 
