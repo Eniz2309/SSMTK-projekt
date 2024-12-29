@@ -46,7 +46,7 @@ analizu IMS/SIP signalizacijskog saobraćaja.
 
 
 
-# Amarisoft CallBox Mini #
+# *Amarisoft CallBox Mini* #
 U ovom poglavlju će biti predstavljena i analizirana oprema koja će biti korištena za realizaciju projektnog zadatka. Glavna komponenta za izvedbu ovog sistema jeste Amarisoft Callbox mini bazna stanica. Njena osnovna funkcija jeste testiranje uređaja koji se koriste u 4G i 5G mrežnim tehnologijama. Na narednoj slici je prikzana arhitektura Amarisoft CallBox mini uređaja. 
 
 
