@@ -165,7 +165,7 @@ OVDJE TREBA SLIKA UE-DM-IMS.CFG FAJLA
 
 
 O wiresharku i pcap
-
+Snimanje saobraćaja na baznoj stanici se pohranjuje u *.pcap* fajlove, a komanda korištena za to jeste *tcpdump*.
 
 
 # *PJSUA* (*PJSIP USER AGENT*)
