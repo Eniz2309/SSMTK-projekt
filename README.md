@@ -74,9 +74,9 @@ VoLTE je danas ključna tehnologija za mobilne operatere, posebno u zemljama gdj
 # Konfiguracija i povezivanje opreme
 
 U prvom koraku realizacije, potrebno je povezati i konfigurisati uređaje koji će se koristiti u mreži. Za izradu ovog projektnog zadatka biće korištena sljedeća oprema:
-- Amarisoft CallBox Mini
-- PC računar ( za remote pristup baznoj stanici )
-- 2 mobilna uređaja
+- *Amarisoft CallBox Mini* bazna stanica
+- PC računar ( za *remote* pristup baznoj stanici )
+- 2 mobilna uređaja ( *User Equipment* - UE )
 
 
 <p align="center">
