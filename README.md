@@ -133,6 +133,7 @@ OVDJE TREBA SLIKA REMOTE PRISTUPA
 
 Ukoliko je potrebno saznati IP adrese bazne stanice ili naziv nekog od *network interface*-a to je moguće pronaći preko *ifconfig* komande. IP adresa za *remote* pristup se uglavnom nalazi u *ens2p0* mrežnom *interface*-u.
 
+## Postavke *VoLTE* mreže na mobilnom uređaju
 
 # *PJSUA* (*PJSIP USER AGENT*)
 
