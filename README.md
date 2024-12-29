@@ -156,8 +156,14 @@ Ključne Karakteristike PJSUA:
 
 # Konfiguracija i uspostava *VoLTE* poziva
 
-*Amarisoft Callbox Mini* bazna stanica ima u sebi implementiranih više sotverskih *LTE* modula i to *IMS*, *MME*, *ENB* i *MBMS-GW*
-
+*Amarisoft Callbox Mini* bazna stanica ima u sebi implementiranih više sotverskih *LTE* modula i to *IMS*, *MME*, *ENB* i *MBMS-GW*. Ovim modulima se može pristupiti preko sljedeće komande: 
+<div align="center">
+  <pre>
+  <code>
+screen -x lte
+  </code>
+  </pre>
+</div>
 
 
 
