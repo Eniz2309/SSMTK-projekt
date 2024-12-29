@@ -12,7 +12,7 @@ Adna Pugonja
 
 
 Ovdje će biti uploadani materijali za SSMTK projekt tema 2
-Posljednje izmjene 28.12.2024
+**Posljednje izmjene 29.12.2024**
 
 # Uvod #
 
