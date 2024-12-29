@@ -154,6 +154,13 @@ Ključne Karakteristike PJSUA:
 - Dodatne Funkcionalnosti: Omogućava petljanje medija (lokalno ili udaljeno), reprodukciju WAV datoteka i pruža statistiku kvaliteta putem RTCP-a.
 
 
+# Konfiguracija i uspostava *VoLTE* poziva
+
+*Amarisoft Callbox Mini* bazna stanica ima u sebi implementiranih više sotverskih *LTE* modula i to *IMS*, *MME*, *ENB* i *MBMS-GW*
+
+
+
+
 # Analiza snimljenog saobraćaja
 
 
