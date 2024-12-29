@@ -1,8 +1,13 @@
 # SISTEMI I SERVISI MOBILNIH TELEKOMUNIKACIJA 
+
 PROJEKTNI ZADATAK - IZVJEŠTAJ
+
 Studenti:
+
 Eniz Balihodžić
+
 Lejla Ćosić
+
 Adna Pugonja
 
 
