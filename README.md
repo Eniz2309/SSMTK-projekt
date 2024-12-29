@@ -141,7 +141,7 @@ PJSIP
 
 Ključne Karakteristike PJSUA:
 
- Podrška za Više Računa: Omogućava konfiguraciju više SIP računa s različitim postavkama registracije.
+- Podrška za Više Računa: Omogućava konfiguraciju više SIP računa s različitim postavkama registracije.
 
 - Više SIP Poziva: Podržava simultano upravljanje više SIP poziva, uključujući konferencijske pozive.
 
