@@ -203,7 +203,7 @@ Ključne Karakteristike PJSUA:
 - Dodatne Funkcionalnosti: Omogućava petljanje medija (lokalno ili udaljeno), reprodukciju WAV datoteka i pruža statistiku kvaliteta putem RTCP-a.
 
 
-# *Python* skripta za *download* audio fajlova sa BIHAMK stranice
+## *Python* skripta za *download* audio fajlova sa BIHAMK stranice
 
 Da bi bazna stanica mogla doći do audio fajlova sa BIHAMK stranice, a zatim ih propagirati na mobilne uređraje, potrebno je napraviti adekvatnu skriptu koja će perodično skidati potrebni fajl. Za realizaciju ovog projektnog zadatka biće korištena *Python* skripta. 
 
