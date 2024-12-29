@@ -164,8 +164,8 @@ screen -x lte
   </code>
   </pre>
 </div>
-Konfiguracijski fajlovi (*.cfg*) svakih od prethodno navedenih modula se nalaze 
 
+Konfiguracijski fajlovi (*.cfg*) svakih od prethodno navedenih modula se nalaze u */root/* direktoriju.
 
 # Analiza snimljenog saobraćaja
 
