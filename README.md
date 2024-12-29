@@ -166,6 +166,7 @@ OVDJE TREBA SLIKA UE-DM-IMS.CFG FAJLA
 
 ## Postavke *VoLTE* mreže na mobilnom uređaju
 
+Za pravilan rad *VoLTE* mreže potrebno je konfiguracija i podešavanje određenih opcija na samom mobilnom uređaju.
 
 # Analiza snimljenog saobraćaja
 
