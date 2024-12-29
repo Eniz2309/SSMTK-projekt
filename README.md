@@ -164,7 +164,7 @@ screen -x lte
   </code>
   </pre>
 </div>
-
+Konfiguracijski fajlovi (*.cfg*) svakih od prethodno navedenih modula se nalaze 
 
 
 # Analiza snimljenog saobraćaja
