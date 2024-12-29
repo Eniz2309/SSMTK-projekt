@@ -2,15 +2,6 @@
 
 PROJEKTNI ZADATAK - IZVJEŠTAJ
 
-Studenti:
-
-Eniz Balihodžić
-
-Lejla Ćosić
-
-Adna Pugonja
-
-
 Ovdje će biti uploadani materijali za SSMTK projekt tema 2
 
 **Posljednje izmjene 29.12.2024**
@@ -70,7 +61,7 @@ VoLTE je baziran na IMS (IP Multimedia Subsystem) platformi, koja omogućava pri
 
 VoLTE donosi brojne prednosti. Kvalitet zvuka je bolji zahvaljujući upotrebi naprednih audio kodeka poput AMR-WB (Adaptive Multi-Rate Wideband), koji pružaju HD Voice kvalitet i osiguravaju širi frekvencijski opseg i prirodniji zvuk. VoLTE omogućava korisnicima da obavljaju glasovne pozive i istovremeno koriste mobilne podatke bez prekida. Efikasnije korištenje spektra omogućeno je optimiziranom LTE infrastrukturom, što znači da VoLTE pozivi koriste manje mrežnih resursa u poređenju s klasičnim CS pozivima. Vrijeme uspostave poziva je kraće u odnosu na 3G pozive zahvaljujući efikasnijoj signalizaciji. VoLTE također predstavlja prijelaznu tačku ka novim standardima poput VoNR (Voice over New Radio).
 
-Međutim, postoje i izazovi u implementaciji VoLTE tehnologije. Efikasno funkcionisanje VoLTE usluge zavisi od potpunog usvajanja IMS platforme od strane mobilnih operatera. Kompatibilnost uređaja također može predstavljati problem jer korisnićki uređaji moraju podržavati VoLTE kako bi mogli koristiti ovu uslugu. Stariji modeli telefona često nisu kompatibilni. Održavanje visokog kvaliteta usluge zahtijeva preciznu kontrolu mrežnih resursa, posebno u uvjetima velike zagušenosti mreže.
+Međutim, postoje i izazovi u implementaciji VoLTE tehnologije. Efikasno funkcionisanje VoLTE usluge zavisi od potpunog usvajanja IMS platforme od strane mobilnih operatera. Kompatibilnost uređaja također može predstavljati problem jer korisnički uređaji moraju podržavati VoLTE kako bi mogli koristiti ovu uslugu. Stariji modeli telefona često nisu kompatibilni. Održavanje visokog kvaliteta usluge zahtijeva preciznu kontrolu mrežnih resursa, posebno u uvjetima velike zagušenosti mreže.
 
 VoLTE je danas ključna tehnologija za mobilne operatere, posebno u zemljama gdje se LTE mreža koristi kao osnovna infrastruktura za mobilne usluge. U okviru ovog rada, VoLTE se koristi za implementaciju aplikacije za informisanje o stanju na putevima, gdje se putem glasovnih poziva prosljeđuju audio obavještenja korisnicima. VoLTE omogućava da se informacije prenesu s visokim kvalitetom zvuka i minimalnim kašnjenjem, što je od velike važnosti za sigurnost i zadovoljstvo korisnika u saobraćaju.
 
@@ -92,7 +83,7 @@ U prvom koraku realizacije, potrebno je povezati i konfigurisati uređaje koji �
   <em>Shematski prikaz povezivanja uređaja u mrežu</em>
 </p>
 
-Operativni sistem koji se nalazi na baznoj stanici je *unix-like* pa se sva manipulacija baznom stanicom vrši preko terminala. Nakon pokretanja bazne stanice, potrebeno je unijeti kredencijale. OVDJE STAVITI SLIKU
+Operativni sistem koji se nalazi na baznoj stanici je *unix-like* pa se sva manipulacija baznom stanicom vrši preko terminala. Nakon pokretanja bazne stanice, potrebeno je unijeti kredencijale.
 Za ispravan rad bazne stanice, pored fizičkog pokretanja, potrebno je i softverski pokrenuti njene servise. Pokretanje se vrši preko sljedeće komande:
 
 <div align="center">
@@ -135,8 +126,6 @@ X.X.X.X/lte
 
 , gdje je *X.X.X.X* IP adresa bazne stanice.
 
-OVDJE TREBA SLIKA REMOTE PRISTUPA
-
 Ukoliko je potrebno saznati IP adrese bazne stanice ili naziv nekog od *network interface*-a to je moguće pronaći preko *ifconfig* komande. IP adresa za *remote* pristup se uglavnom nalazi u *ens2p0* mrežnom *interface*-u.
 
 
@@ -158,18 +147,16 @@ Konfiguracijski fajlovi (*.cfg*) svakih od prethodno navedenih modula se nalaze 
 
 *UE* baza predstavlja bazu podataka gdje su smješteni podaci o mobilnim uređajima koji su povezani na baznu stanicu. Konfiguracijski fajle ove baze je *ue-db-ims.cfg*. Na narednoj slici je prikazan *ue-db-ims.cfg* fajl.
 
-OVDJE TREBA SLIKA UE-DM-IMS.CFG FAJLA
-
-
-
-
-
 ## Postavke *VoLTE* mreže na mobilnom uređaju
 
-Za pravilan rad *VoLTE* mreže potrebno je konfiguracija i podešavanje određenih opcija na samom mobilnom uređaju.
+Za pravilan rad *VoLTE* mreže potrebno je konfiguracija i podešavanje određenih opcija na samom mobilnom uređaju. 
+Svakom uređaju potrebno je dodijeliti jedinstveni telefonski broj koji se povezuje s njegovim IMEI brojem (*International Mobile Equipment Identity*), čime se osigurava ispravna VoLTE konfiguracija.
+
+IMEI svakog korisničkog uređaja može se saznati unosom koda *#06#. 
+Prvi IMEI je povezan s brojem 0600000123.
+Drugi IMEI je povezan s brojem 0600000124.
 
 # Analiza snimljenog saobraćaja
-
 
 O wiresharku i pcap
 Snimanje saobraćaja na baznoj stanici se pohranjuje u *.pcap* fajlove, a komanda korištena za to jeste *tcpdump*. Budući da se *.pcap* fajlovi mogu analizirati preko *Wireshark*-a, čiji *GUI* nije moguće pokrenuti u terminalu bazne stanice, snimljene fajlove je potrebno prebaciti na *remote* računar. Kako su bazna stanica i računar u istoj mreži, na *remote* računar se mogu kopirati *.pcap* fajlovi sa bazne stanice preko *scp* komande:
@@ -202,10 +189,3 @@ Ključne Karakteristike PJSUA:
 
 - Dodatne Funkcionalnosti: Omogućava petljanje medija (lokalno ili udaljeno), reprodukciju WAV datoteka i pruža statistiku kvaliteta putem RTCP-a.
 
-
-## *Python* skripta za *download* audio fajlova sa BIHAMK stranice
-
-Da bi bazna stanica mogla doći do audio fajlova sa BIHAMK stranice, a zatim ih propagirati na mobilne uređraje, potrebno je napraviti adekvatnu skriptu koja će perodično skidati potrebni fajl. Za realizaciju ovog projektnog zadatka biće korištena *Python* skripta. 
-
-
-# Zaključak
