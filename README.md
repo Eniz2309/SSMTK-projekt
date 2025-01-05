@@ -209,7 +209,7 @@ Prvi korak u instalaciji i konfiguraciji *PJSUA* je instlacija AMR WB (wideband)
 ### Instalacija OpenCORE AMR NB i WB kodeka
 
 Za instalaciju kodeka, potrebno je prvo preuzeti instalacijske fajlove. Sljedeći korak je ekstrakcija fajlova, komandom *tar*:
-<div align="center">
+<div align="left">
   <pre>
   <code>
     
