@@ -219,4 +219,16 @@ $
 </code>
   </pre>
 </div>
-Zatim je potrebno pokrenuti *fdsf*
+
+Zatim je potrebno pokrenuti *configure* fajl za konfiguraciju i dodati *--prefix* i uraditi *build* i instalaciju:
+
+<div align="left">
+  <pre>
+  <code>
+    
+$ ./configure --prefix=/home/foopencore-amr-0.1.3.tar.gz
+$ make && make install
+
+</code>
+  </pre>
+</div>
