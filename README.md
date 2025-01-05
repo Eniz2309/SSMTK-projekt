@@ -190,3 +190,18 @@ Ključne Karakteristike PJSUA:
 - Dodatne Funkcionalnosti: Omogućava petljanje medija (lokalno ili udaljeno), reprodukciju WAV datoteka i pruža statistiku kvaliteta putem RTCP-a.
 
 ## Instalacija i konfiguracija *PJSUA*
+
+Prvi korak u instalaciji i konfiguraciji *PJSUA* je instlacija AMR WB (wideband) i NB (narrowband) kodeka, koji su potrebni za adekvatan rad sa baznom stanicom. Nadalje je potrebno konfigurisati konfiguracijske fajlove na baznoj stanici. U prvom koraku u fajlu *ue_db-ims.cfg* dodati linije za SIP klijenta (u slučaju ove bazne stanice su se već nalazile u fajlu zakomentarisane, potrebno ih je otkomentarisati):
+{
+    /* Dummy SIM information for MME */
+    sim_algo: "xor",
+    imsi: "000000000000000",
+    K: "00000000000000000000000000000000",
+    amf: 0x0000,
+
+    /* SIP client informations */
+    impi: "sipclient",
+    impu: ["tel:1234"],
+    **pwd: "sipclient",
+    authent_type: "MD5",**
+}
