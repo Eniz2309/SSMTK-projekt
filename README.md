@@ -206,4 +206,5 @@ Prvi korak u instalaciji i konfiguraciji *PJSUA* je instlacija AMR WB (wideband)
     pwd: "sipclient",
     authent_type: "MD5",
 
+### Instalacija OpenCORE AMR NB i WB kodeka
 
