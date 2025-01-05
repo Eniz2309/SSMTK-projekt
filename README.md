@@ -219,3 +219,4 @@ $
 </code>
   </pre>
 </div>
+Zatim je potrebno pokrenuti *fdsf*
