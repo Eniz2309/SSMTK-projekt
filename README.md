@@ -212,8 +212,10 @@ Za instalaciju kodeka, potrebno je prvo preuzeti instalacijske fajlove. Sljedeć
 <div align="center">
   <pre>
   <code>
+    
 $ cd my_build_directory
 $ tar xzf opencore-amr-0.1.3.tar.gz
-$  </code>
+$ 
+</code>
   </pre>
 </div>
