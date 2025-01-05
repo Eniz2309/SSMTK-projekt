@@ -200,7 +200,6 @@ Prvi korak u instalaciji i konfiguraciji *PJSUA* je instlacija AMR WB (wideband)
     imsi: "000000000000000",
     K: "00000000000000000000000000000000",
     amf: 0x0000,
-    
     /* SIP client informations */
     impi: "sipclient",
     impu: ["tel:1234"],
