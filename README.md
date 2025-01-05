@@ -189,3 +189,4 @@ Ključne Karakteristike PJSUA:
 
 - Dodatne Funkcionalnosti: Omogućava petljanje medija (lokalno ili udaljeno), reprodukciju WAV datoteka i pruža statistiku kvaliteta putem RTCP-a.
 
+## Instalacija i konfiguracija *PJSUA*
