@@ -191,7 +191,41 @@ Ključne Karakteristike PJSUA:
 
 ## Instalacija i konfiguracija *PJSUA*
 
-Prvi korak u instalaciji i konfiguraciji *PJSUA* je instlacija AMR WB (wideband) i NB (narrowband) kodeka, koji su potrebni za adekvatan rad sa baznom stanicom. Korištenjem *ffmpeg* alata, audio fajlovi koji će se reproducirati na baznoj stanici se konvertuju u *.wav* fajl preko komande:
+Prvi korak u instalaciji i konfiguraciji *PJSUA* je instlacija AMR WB (wideband) i NB (narrowband) kodeka, koji su potrebni za adekvatan rad sa baznom stanicom.
+### Instalacija OpenCORE AMR NB i WB kodeka
+
+Za instalaciju kodeka, potrebno je prvo preuzeti instalacijske fajlove. Sljedeći korak je ekstrakcija fajlova, komandom *tar*:
+<div align="left">
+  <pre>
+  <code>
+    
+$ cd my_build_directory
+$ tar xzf opencore-amr-0.1.3.tar.gz
+$ 
+</code>
+  </pre>
+</div>
+
+Zatim je potrebno pokrenuti *configure* fajl za konfiguraciju i dodati *--prefix* i uraditi *build* i instalaciju:
+
+<div align="left">
+  <pre>
+  <code>
+    
+$ ./configure --prefix=/home/foopencore-amr-0.1.3.tar.gz
+$ make && make install
+
+</code>
+  </pre>
+</div>
+
+
+
+
+
+
+
+Korištenjem *ffmpeg* alata, audio fajlovi koji će se reproducirati na baznoj stanici se konvertuju u *.wav* fajl preko komande:
 
 <div align="left">
   <pre>
@@ -223,29 +257,3 @@ Nadalje je potrebno u fajlu *ue_db-ims.cfg* dodati linije za *dummy* SIP klijent
     pwd: "sipclient",
     authent_type: "MD5",
 
-### Instalacija OpenCORE AMR NB i WB kodeka
-
-Za instalaciju kodeka, potrebno je prvo preuzeti instalacijske fajlove. Sljedeći korak je ekstrakcija fajlova, komandom *tar*:
-<div align="left">
-  <pre>
-  <code>
-    
-$ cd my_build_directory
-$ tar xzf opencore-amr-0.1.3.tar.gz
-$ 
-</code>
-  </pre>
-</div>
-
-Zatim je potrebno pokrenuti *configure* fajl za konfiguraciju i dodati *--prefix* i uraditi *build* i instalaciju:
-
-<div align="left">
-  <pre>
-  <code>
-    
-$ ./configure --prefix=/home/foopencore-amr-0.1.3.tar.gz
-$ make && make install
-
-</code>
-  </pre>
-</div>
