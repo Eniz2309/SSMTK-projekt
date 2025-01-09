@@ -249,9 +249,7 @@ ffmpeg -i myaudiofile -acodec pcm_s16le -ac 1 -ar 16000 test.wav
 
 OVDJE SLIKA KONVERZIJE
 
-
-Nadalje je potrebno u fajlu *ue_db-ims.cfg* dodati linije za *dummy* SIP klijenta:
-
+Sljedeći korak je konfiguracija VoIP klijenta i konfiguracijskih fajlova na baznoj stanici. U fajlu *ue_db-ims.cfg* dodati linije za *dummy* SIP klijenta:
 
 
     /* Dummy SIM information for MME */
