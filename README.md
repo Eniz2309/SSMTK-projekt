@@ -205,6 +205,9 @@ ffmpeg -i myaudiofile -acodec pcm_s16le -ac 1 -ar 16000 test.wav
 
 , gdje je *myaudiofile* ulazni fajl koji se konvertuje, *-acodec pcm16le* predstavlja PCM modulaciju sa 16 bita u Little endian formatu,dok *-ac 1* označava broj audio kanala, a *-ar 16000* predstavlja frekvenciju uzorkovanja koja je postavljena na 16kHz i konačno *test.wav* je konačni konvertovani fajl.
 
+OVDJE SLIKA KONVERZIJE
+
+
 Nadalje je potrebno u fajlu *ue_db-ims.cfg* dodati linije za *dummy* SIP klijenta:
 
 
