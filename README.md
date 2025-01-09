@@ -191,7 +191,7 @@ Ključne Karakteristike PJSUA:
 
 ## Instalacija i konfiguracija *PJSUA*
 
-Prvi korak u instalaciji i konfiguraciji *PJSUA* je instlacija AMR WB (wideband) i NB (narrowband) kodeka, koji su potrebni za adekvatan rad sa baznom stanicom. Nadalje je potrebno konfigurisati konfiguracijske fajlove na baznoj stanici. U prvom koraku u fajlu *ue_db-ims.cfg* dodati linije za SIP klijenta (u slučaju ove bazne stanice su se već nalazile u fajlu zakomentarisane, potrebno ih je otkomentarisati):
+Prvi korak u instalaciji i konfiguraciji *PJSUA* je instlacija AMR WB (wideband) i NB (narrowband) kodeka, koji su potrebni za adekvatan rad sa baznom stanicom. Nadalje je potrebno konfigurisati konfiguracijske fajlove na baznoj stanici. U prvom koraku u fajlu *ue_db-ims.cfg* dodati linije za *dummy* SIP klijenta:
 
 
 
