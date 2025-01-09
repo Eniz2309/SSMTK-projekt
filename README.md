@@ -222,7 +222,15 @@ $ make && make install
 
 
 
-
+Provjera uspješne instalacije *ffmpeg* alata i potrebnih kodeka se može uraditi sljedećom komandom:
+<div align="left">
+  <pre>
+  <code>
+    
+ffmpeg -codecs
+</code>
+  </pre>
+</div>
 
 
 Korištenjem *ffmpeg* alata, audio fajlovi koji će se reproducirati na baznoj stanici se konvertuju u *.wav* fajl preko komande:
