@@ -279,3 +279,5 @@ Nakon uspješne instalacije i konfiguracije, PJSUA se pokreće u pjproject direk
 </code>
   </pre>
 </div>
+
+Ukoliko je sve ispravno urađeno, trebao bi se pokrenuti PJSUA u terminalu kao na slici ispod.
