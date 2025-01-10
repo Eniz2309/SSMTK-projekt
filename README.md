@@ -334,4 +334,6 @@ Za korištenje python programskog jezika, potrebno je imati python modul instali
 
 ## Crontab
 
+Crontab je alat u linux operativnim sistema koji služi za *schedule*-ing procesa na određeni period. Za ovaj projekat potrebno je postaviti task za povremeno pokretanje bash skripte koja preuzima i konvertuje audio fajl. 
+
 # Zaključak
