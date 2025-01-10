@@ -263,3 +263,6 @@ Sljedeći korak je konfiguracija VoIP klijenta i konfiguracijskih fajlova na baz
     pwd: "sipclient",
     authent_type: "MD5",
 
+
+
+## Pokretanje PJSUA
