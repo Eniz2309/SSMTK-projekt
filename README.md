@@ -295,6 +295,16 @@ Nakon uspješne instalacije i konfiguracije, PJSUA se pokreće u pjproject direk
 </div>
 
 Ukoliko je sve ispravno urađeno, trebao bi se pokrenuti PJSUA u terminalu kao na slici ispod.
+Korisno je napomenuti da AMR kodeci koristi određene biblioteke koje sistem ne može pronaći u standardnim /lib datotekama već se oni nalaze u instalacijskim datotekama kodeka te zbog toga može izbacivati grešku prilikom pokušaja pokretanja PJSUA. Da bi se taj problem riješio, potrebno je ručno izvršiti export potrebnih biblioteka sljedećom komandom:
+
+<div align="left">
+  <pre>
+  <code>
+ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lib_fajl_alata
+</code>
+  </pre>
+</div>
+
 
 <p align="center">
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/PJSUA_prozor.png" alt="PJSUA" width="500" />
