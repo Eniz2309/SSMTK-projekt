@@ -371,12 +371,21 @@ Crontab je alat u linux operativnim sistema koji služi za *schedule*-ing proces
 </div>
 
 
-U nastavku je data crontab komanda koja pokreće *bash* skriptu svakih 5 minuta. 
+U nastavku je data crontab komanda, koju je potrebno unijeti u crontab editor i spasiti, koja pokreće *bash* skriptu svakih 5 minuta. 
 
 <div align="left">
   <pre>
   <code>
     */5 * * * * /home/python_skripte/preuzmi_i_kopiraj.sh 
+</code>
+  </pre>
+</div>
+
+Pregled pokrenutih taskova u crontabu se može izvršiti sljedećom komandom 
+<div align="left">
+  <pre>
+  <code>
+    crontab -l
 </code>
   </pre>
 </div>
