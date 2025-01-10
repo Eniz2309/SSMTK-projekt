@@ -286,5 +286,5 @@ Ukoliko je sve ispravno urađeno, trebao bi se pokrenuti PJSUA u terminalu kao n
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/PJSUA_prozor.png" alt="PJSUA" width="400" />
 </p>
 <p align="center">
-  <em>Shematski prikaz povezivanja uređaja u mrežu</em>
+  <em>PJSUA</em>
 </p>
