@@ -312,3 +312,8 @@ Nakon obavljenog poziva, u PJSUA se prikaže statistika i podaci o obavljenom po
 <p align="center">
   <em>SIP klijent u ims screenu</em>
 </p>
+
+
+# *Python* skripta za preuzimanje audio sadržaja
+
+Da bi bazna stanica bila u mogućnosti reprodukovati ažuriran audio sadržaj o stanju na putevima, potrebno je napraviti skriptu koja će periodično preuzimati ažurirani audio snimak sa BIHAMK stranice. U okviru ovog projekta će biti realizovana *python* skripta koja će povremeno preuzimati novi audio sadržaj u *pjproject* direktorij te pokretati *ffmpeg* komandu za njegovu konverziju u *.wav* format.
