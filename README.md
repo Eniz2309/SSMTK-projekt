@@ -258,6 +258,13 @@ ffmpeg -i myaudiofile -acodec pcm_s16le -ac 1 -ar 16000 test.wav
   <em>Koverzija audio formata preko ffmpeg alata</em>
 </p>
 
+
+## Instalacija *pjproject*-a
+
+U narednoj iteraciji je potrebno preuzeti i *build*-dati *pjproject* u kojem se zapravo nalazi PJSUA i koji koristi prethodno instalirane alate. Nakon preuzimanja *.zip* fajla, potrebno je izvršiti ekstraciju istog. U dobijeni *pjproject* je potrebno staviti *.wav* fajl koji će se reprodukovati kao i *pjsua.cfg* konfiguracijski fajl. 
+
+
+
 Sljedeći korak je konfiguracija VoIP klijenta i konfiguracijskih fajlova na baznoj stanici. U fajlu *ue_db-ims.cfg* dodati linije za *dummy* SIP klijenta:
 
 
