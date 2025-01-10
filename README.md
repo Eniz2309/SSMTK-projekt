@@ -398,7 +398,7 @@ U nastavku je data crontab komanda, koju je potrebno unijeti u crontab editor i 
 <div align="left">
   <pre>
   <code>
-    */5 * * * * /home/python_skripte/preuzmi_i_kopiraj.sh 
+    */5 * * * * /home/python_skripte/preuzimanje_i_konverzija.sh 
 </code>
   </pre>
 </div>
