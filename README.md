@@ -360,7 +360,7 @@ Bash skripta je u suštini *.sh* u kojem su zapisane komande koje će pokretati 
 
 ## Crontab
 
-Crontab je alat u linux operativnim sistema koji služi za *schedule*-ing procesa na određeni period. Za ovaj projekat potrebno je postaviti task za povremeno pokretanje *bash* skripte, objašnjenje u prethodnoj skeciji, ovisno o rezoluciji vremenea koja bude postavljena. Crontab editor se pokreće sljedećom komandom:
+Crontab je alat u linux operativnim sistema koji služi za *schedule*-ing procesa na određeni period. Za ovaj projekat potrebno je postaviti task za povremeno pokretanje *bash* skripte, objašnjenje u prethodnoj skeciji, ovisno o rezoluciji vremena koja bude postavljena. Crontab editor se pokreće sljedećom komandom:
 
 <div align="left">
   <pre>
