@@ -342,7 +342,7 @@ Da bi bazna stanica bila u mogućnosti reprodukovati ažuriran audio sadržaj o 
 Da bi se moglo vršiti preuzimanje, potrebno je doći do linka sa kojeg se preuzima audio fajl. To nije u ovom slučaju samo URL www.bihamk.ba već je potrebno pronaći sekciju *Stanje na putevima* na samoj stranici, te putem *Inspect element*-a pronaći link na kojem se pohranjuje audio sadržaj. Budući da se radi o audio fajlu, link se može naći relativno jednostavno, tražeći ključne riječi poput *audio*.
 
 <p align="center">
-  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/stanje_na_putevima.png" alt="PJSUA" width="600" />
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/stanje_na_putevima.png" alt="PJSUA" width="800" />
 </p>
 <p align="center">
   <em>Pronalaženje linka za audio fajl na BIHAMK stranici</em>
