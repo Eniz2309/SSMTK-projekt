@@ -281,3 +281,10 @@ Nakon uspješne instalacije i konfiguracije, PJSUA se pokreće u pjproject direk
 </div>
 
 Ukoliko je sve ispravno urađeno, trebao bi se pokrenuti PJSUA u terminalu kao na slici ispod.
+
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/amarisoft_konekcija.png](https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/PJSUA_prozor.png" alt="PJSUA" width="400" />
+</p>
+<p align="center">
+  <em>Shematski prikaz povezivanja uređaja u mrežu</em>
+</p>
