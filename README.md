@@ -432,6 +432,12 @@ Pregled pokrenutih taskova u crontabu se može izvršiti sljedećom komandom
 
 # Zaključak
 
+U ovom projektu uspješno je realizirana eksperimentalna 4G/5G mreža sa podrškom za VoLTE i VoNR usluge, čime je omogućena komunikacija između korisničkih uređaja putem dodijeljenih javnih identiteta (brojeva telefona). Provedena su testiranja VoLTE i VoNR usluga, pri čemu je snimljen i analiziran kompletan signalizacijski saobraćaj, uključujući ključne 4G/5G mrežne protokole te IMS/SIP signalizaciju.
+
+Dodatno, razvijena je aplikacija za automatsko preuzimanje i konverziju zvučnih obavještenja sa web stranice BIHAMK-a, čime je osigurano ažurno informisanje korisnika o stanju na putevima. Integracija ove aplikacije sa VoIP klijentom omogućila je reprodukciju zvučnih obavještenja na eksperimentalnoj 4G/5G mreži, pružajući primjer inovativne upotrebe mrežnih resursa u realnom okruženju.
+
+Testiranjem VoLTE/VoNR bazirane usluge informisanja o stanju na putevima demonstrirana je funkcionalnost i pouzdanost sistema, uz detaljnu analizu IMS/SIP signalizacijskog saobraćaja. Ovi rezultati potvrđuju tehničku izvodivost i potencijal praktične primjene razvijenog sistema u kontekstu naprednih mrežnih usluga.
+
 
 ## Reference
 
