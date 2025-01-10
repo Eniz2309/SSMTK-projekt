@@ -145,16 +145,20 @@ Konfiguracijski fajlovi (*.cfg*) svakih od prethodno navedenih modula se nalaze 
 
 ## Postavke *UE* baze 
 
-*UE* baza predstavlja bazu podataka gdje su smješteni podaci o mobilnim uređajima koji su povezani na baznu stanicu. Konfiguracijski fajle ove baze je *ue-db-ims.cfg*. Na narednoj slici je prikazan *ue-db-ims.cfg* fajl.
-
-## Postavke *VoLTE* mreže na mobilnom uređaju
-
-Za pravilan rad *VoLTE* mreže potrebno je konfiguracija i podešavanje određenih opcija na samom mobilnom uređaju. 
+*UE* baza predstavlja bazu podataka gdje su smješteni podaci o mobilnim uređajima koji su povezani na baznu stanicu. Konfiguracijski fajle ove baze je *ue-db-ims.cfg*. Na narednoj slici je prikazan *ue-db-ims.cfg* fajl.Za pravilan rad *VoLTE* mreže potrebno je konfiguracija i podešavanje određenih opcija na samom mobilnom uređaju. 
 Svakom uređaju potrebno je dodijeliti jedinstveni telefonski broj koji se povezuje s njegovim IMEI brojem (*International Mobile Equipment Identity*), čime se osigurava ispravna VoLTE konfiguracija.
 
 IMEI svakog korisničkog uređaja može se saznati unosom koda *#06#. 
 Prvi IMEI je povezan s brojem 0600000123.
 Drugi IMEI je povezan s brojem 0600000124.
+
+
+
+
+
+
+## Postavke *VoLTE* mreže na mobilnom uređaju
+
 
 # Analiza snimljenog saobraćaja
 
