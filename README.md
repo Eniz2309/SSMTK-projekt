@@ -355,6 +355,8 @@ Za korištenje python programskog jezika, potrebno je imati python modul instali
 
 ## Bash skripta
 
+Bash skripta je u suštini *.sh* u kojem su zapisane komande koje će pokretati u terminalu jedna za drugom. Za potrebe ovog zadatka, kreirana je *bash* skripta koja pokreće prethodno opisanu *python* skriptu za preuzimanje audio fajla, a zatim pokreće konverziju koristeći ranije objašnjenu *ffmpeg* funkciju i na kraju vrši kopiranje tog fajla u *pjproject* direktorij.
+
 
 ## Crontab
 
