@@ -269,7 +269,7 @@ Sljedeći korak je konfiguracija VoIP klijenta i konfiguracijskih fajlova na baz
     authent_type: "MD5",
 
 
-Zbog određenih neusaglašenosti u verzijama i njihovom načinu čitanja varijabli, u *impu* je potrebno dodati 
+Zbog određenih neusaglašenosti u verzijama i njihovom načinu čitanja varijabli, u *impu* je potrebno dodati i "sip:1234".
 
 ## Pokretanje PJSUA
 
