@@ -324,3 +324,8 @@ Da bi bazna stanica bila u mogućnosti reprodukovati ažuriran audio sadržaj o 
    - Python skripta koja preuzima potrebni audio snimak sa *BIHAMK* web stranice
    - *Bash* skripta koja pokreće python skriptu a zatim koristi *ffmpeg* alat za konverziju audio fajla u *.wav* format i smješta ga u pjproject direktorij
    - *Crontab* u kojem je podešeno periodično pokretanje *bash* skripte
+
+
+
+
+# Zaključak
