@@ -325,7 +325,13 @@ Da bi bazna stanica bila u mogućnosti reprodukovati ažuriran audio sadržaj o 
    - *Bash* skripta koja pokreće python skriptu a zatim koristi *ffmpeg* alat za konverziju audio fajla u *.wav* format i smješta ga u pjproject direktorij
    - *Crontab* u kojem je podešeno periodično pokretanje *bash* skripte
 
+## Python skripta
+
+Za korištenje python programskog jezika, potrebno je imati python modul instaliran. 
+
+## Bash skripta
 
 
+## Crontab
 
 # Zaključak
