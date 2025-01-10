@@ -318,7 +318,7 @@ Nakon obavljenog poziva, u PJSUA se prikaže statistika i podaci o obavljenom po
 </p>
 
 
-# *Python* skripta za preuzimanje audio sadržaja
+# Preuzimanje audio sadržaja i priprema za reprodukciju
 
 Da bi bazna stanica bila u mogućnosti reprodukovati ažuriran audio sadržaj o stanju na putevima, potrebno je napraviti skriptu koja će periodično preuzimati ažurirani audio snimak sa BIHAMK stranice. U okviru ovog projekta će biti realizovana *python* skripta koja će povremeno preuzimati novi audio sadržaj sa BIHAMK web stranice. Da bi se izbjegla kompleksna skripta, ovaj dio projekta je podijeljen u 3 segmenta, gdje su iskorištene pogodnosti Fedore kao linux-based sistema:
    - Python skripta koja preuzima potrebni audio snimak sa *BIHAMK* web stranice
