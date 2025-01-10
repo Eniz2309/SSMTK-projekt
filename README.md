@@ -283,7 +283,7 @@ Nakon uspješne instalacije i konfiguracije, PJSUA se pokreće u pjproject direk
 Ukoliko je sve ispravno urađeno, trebao bi se pokrenuti PJSUA u terminalu kao na slici ispod.
 
 <p align="center">
-  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/PJSUA_prozor.png" alt="PJSUA" width="400" />
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/PJSUA_prozor.png" alt="PJSUA" width="500" />
 </p>
 <p align="center">
   <em>PJSUA</em>
