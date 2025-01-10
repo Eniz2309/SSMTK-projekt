@@ -298,7 +298,7 @@ Ukoliko je sve ispravno urađeno, trebao bi se pokrenuti PJSUA u terminalu kao n
 Važno je napomenuti da je potrebno da *LTE* i *PJSUA* servisi trebaju biti pokrenuti istovremeno te je potrebno osigurati da rade na različitim portovima. Kako su ova dva servisa povezani, pokretanjem komande *users* u screenu *ims* bi se, pored mobilnih uređaja trebao prikazati i SIP klijent kao na narednoj slici.
 
 <p align="center">
-  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/PJSUA_prozor.png" alt="PJSUA" width="600" />
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/statistika_poziva.png" alt="PJSUA" width="600" />
 </p>
 <p align="center">
   <em>PJSUA</em>
