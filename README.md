@@ -295,5 +295,5 @@ Nakon obavljenog poziva, u PJSUA se prikaže statistika i podaci o obavljenom po
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/statistika_poziva.png" alt="PJSUA" width="400" />
 </p>
 <p align="center">
-  <em>PJSUA</em>
+  <em>Podaci o završenom pozivu</em>
 </p>
