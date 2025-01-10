@@ -288,3 +288,12 @@ Ukoliko je sve ispravno urađeno, trebao bi se pokrenuti PJSUA u terminalu kao n
 <p align="center">
   <em>PJSUA</em>
 </p>
+
+Nakon obavljenog poziva, u PJSUA se prikaže statistika i podaci o obavljenom pozivu.
+
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/statistika_poziva.png" alt="PJSUA" width="400" />
+</p>
+<p align="center">
+  <em>PJSUA</em>
+</p>
