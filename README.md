@@ -377,7 +377,24 @@ Bitno je imati na umu da se skripta pokreće u unix-based okruženju pa je potre
 
 ## Bash skripta
 
-Bash skripta je u suštini *.sh* u kojem su zapisane komande koje će pokretati u terminalu jedna za drugom. Za potrebe ovog zadatka, kreirana je *bash* skripta koja pokreće prethodno opisanu *python* skriptu za preuzimanje audio fajla, a zatim pokreće konverziju koristeći ranije objašnjenu *ffmpeg* funkciju i na kraju vrši kopiranje tog fajla u *pjproject* direktorij.
+Bash skripta je u suštini *.sh* u kojem su zapisane komande koje će pokretati u terminalu jedna za drugom. Za potrebe ovog zadatka, kreirana je *bash* skripta koja pokreće prethodno opisanu *python* skriptu za preuzimanje audio fajla, a zatim pokreće konverziju koristeći ranije objašnjenu *ffmpeg* funkciju i na kraju vrši kopiranje tog fajla u *pjproject* direktorij, koja ima sljedeći oblik:
+
+
+<div align="left">
+  <pre>
+  <code>
+    
+#! /usr/bin/env bash
+
+python3 bihamk_audio.py
+
+ffmpeg -i -n bihamk_audio.mp3 -acodec pcm_s16le -ac 1 -ar 16000 test.wav
+
+cp -n test.wav /home/pjproject-2.11/
+
+</code>
+  </pre>
+</div>
 
 
 ## Crontab
