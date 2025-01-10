@@ -352,8 +352,6 @@ Da bi se moglo vršiti preuzimanje, potrebno je doći do linka sa kojeg se preuz
 ## Python skripta
 
 Za korištenje python programskog jezika, potrebno je imati python modul instaliran. Potrebno je napisati kod za skriptu koja će preuzimati fajl sa BIHAMK stranice, odnosno sa linka iz prethodne sekcije. Za tu svrhu je potrebno koristiti biblioteku *requests* koja se koristi za slanje *HTTP request*-a. Skripta za preuzimanje audio fajla je data u nastavku:
-
-
 <div align="left">
   <pre>
   <code>
@@ -362,22 +360,19 @@ Za korištenje python programskog jezika, potrebno je imati python modul instali
 
 import requests
 
-
 url = "https://bihamk.ba/assets/files/page/1736519958-stanje-na-cestamamp3mp3-pages.mp3"
-
 filename = "bihamk_audio.mp3"
 
 response = requests.get(url, stream=True)
 response.raise_for_status()
-
 with open(filename, "wb") as audio_file:
 	for chunk in response.iter_content(chunk_size=8192):
             if chunk:  # Provjera da nije prazan blok
                 audio_file.write(chunk)
-
 </code>
   </pre>
 </div>
+
 
 ## Bash skripta
 
