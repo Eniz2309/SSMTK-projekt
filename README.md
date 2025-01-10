@@ -395,3 +395,8 @@ Pregled pokrenutih taskova u crontabu se može izvršiti sljedećom komandom
 
 
 ## Reference
+
+- https://tech-academy.amarisoft.com/ims_play_file.wiki
+- https://tech-academy.amarisoft.com/LTE_VoLTE_Loopback.html
+- https://tech-academy.amarisoft.com/volte_support.wiki
+
