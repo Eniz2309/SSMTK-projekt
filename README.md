@@ -320,7 +320,7 @@ Nakon obavljenog poziva, u PJSUA se prikaže statistika i podaci o obavljenom po
 
 # *Python* skripta za preuzimanje audio sadržaja
 
-Da bi bazna stanica bila u mogućnosti reprodukovati ažuriran audio sadržaj o stanju na putevima, potrebno je napraviti skriptu koja će periodično preuzimati ažurirani audio snimak sa BIHAMK stranice. U okviru ovog projekta će biti realizovana *python* skripta koja će povremeno preuzimati novi audio sadržaj u *pjproject* direktorij te pokretati *ffmpeg* komandu za njegovu konverziju u *.wav* format. Da bi se izbjegla kompleksna skripta, ovaj dio projekta je podijeljen u 3 segmenta, gdje su iskorištene pogodnosti Fedore kao linux-based sistema:
+Da bi bazna stanica bila u mogućnosti reprodukovati ažuriran audio sadržaj o stanju na putevima, potrebno je napraviti skriptu koja će periodično preuzimati ažurirani audio snimak sa BIHAMK stranice. U okviru ovog projekta će biti realizovana *python* skripta koja će povremeno preuzimati novi audio sadržaj sa BIHAMK web stranice. Da bi se izbjegla kompleksna skripta, ovaj dio projekta je podijeljen u 3 segmenta, gdje su iskorištene pogodnosti Fedore kao linux-based sistema:
    - Python skripta koja preuzima potrebni audio snimak sa *BIHAMK* web stranice
-   - *Bash* skripta koja pokreće python skriptu a zatim koristi *ffmpeg* alat za konverziju audio fajla i smješta ga u pjproject direktorij
+   - *Bash* skripta koja pokreće python skriptu a zatim koristi *ffmpeg* alat za konverziju audio fajla u *.wav* format i smješta ga u pjproject direktorij
    - *Crontab* u kojem je podešeno periodično pokretanje *bash* skripte
