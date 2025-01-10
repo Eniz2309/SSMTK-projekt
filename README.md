@@ -339,6 +339,16 @@ Da bi bazna stanica bila u mogućnosti reprodukovati ažuriran audio sadržaj o 
    - *Bash* skripta koja pokreće python skriptu a zatim koristi *ffmpeg* alat za konverziju audio fajla u *.wav* format i smješta ga u pjproject direktorij
    - *Crontab* u kojem je podešeno periodično pokretanje *bash* skripte
 
+Da bi se moglo vršiti preuzimanje, potrebno je doći do linka sa kojeg se preuzima audio fajl. To nije u ovom slučaju samo URL www.bihamk.ba već je potrebno pronaći sekciju *Stanje na putevima* na samoj stranici, te putem *Inspect element*-a pronaći link na kojem se pohranjuje audio sadržaj. Budući da se radi o audio fajlu, link se može naći relativno jednostavno, tražeći ključne riječi poput *audio*.
+
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/stanje_na_putevima.png" alt="PJSUA" width="600" />
+</p>
+<p align="center">
+  <em>Pronalaženje linka za audio fajl na BIHAMK stranici</em>
+</p>
+
+
 ## Python skripta
 
 Za korištenje python programskog jezika, potrebno je imati python modul instaliran. 
