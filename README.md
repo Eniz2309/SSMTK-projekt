@@ -351,7 +351,7 @@ Da bi se moglo vršiti preuzimanje, potrebno je doći do linka sa kojeg se preuz
 
 ## Python skripta
 
-Za korištenje python programskog jezika, potrebno je imati python modul instaliran. 
+Za korištenje python programskog jezika, potrebno je imati python modul instaliran. Potrebno je napisati kod za skriptu koja će preuzimati fajl sa BIHAMK stranice, odnosno sa linka iz prethodne sekcije. Za tu svrhu je potrebno koristiti biblioteku *requests* koja se koristi za slanje *HTTP request*-a. 
 
 ## Bash skripta
 
