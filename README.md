@@ -367,12 +367,13 @@ response = requests.get(url, stream=True)
 response.raise_for_status()
 with open(filename, "wb") as audio_file:
 	for chunk in response.iter_content(chunk_size=8192):
-            if chunk:  # Provjera da nije prazan blok
+            if chunk: 
                 audio_file.write(chunk)
 </code>
   </pre>
 </div>
 
+Bitno je imati na umu da se skripta pokreće u unix-based okruženju pa je potrebno dodati *#! (shebang)* da se osigura da bude izvršiva na samom Fedora operativnom sistemu.
 
 ## Bash skripta
 
