@@ -266,3 +266,16 @@ Sljedeći korak je konfiguracija VoIP klijenta i konfiguracijskih fajlova na baz
 
 
 ## Pokretanje PJSUA
+
+
+Nakon uspješne instalacije i konfiguracije, PJSUA se pokreće u pjproject direktoriju sljedećom komandom:
+
+<div align="left">
+  <pre>
+  <code>
+    
+./pjsip-apps/bin/pjsua-x86_64-unknown-linux-gnu --config-file=pjsua.cfg
+
+</code>
+  </pre>
+</div>
