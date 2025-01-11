@@ -103,7 +103,7 @@ service lte status
 </div>
 
 <p align="center">
-  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/servis_lte_status.png" alt="PJSUA" width="800" />
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/servis_lte_status.png" alt="PJSUA" width="600" />
 </p>
 <p align="center">
   <em>Provjera statusa LTE servisa</em>
