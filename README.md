@@ -102,6 +102,8 @@ service lte status
   </pre>
 </div>
 
+Ukoliko je sve ispravno konfigurisano, LTE servis bi trebao imati status *active(running)*.
+
 <p align="center">
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/servis_lte_status.png" alt="PJSUA" width="600" />
 </p>
@@ -118,7 +120,7 @@ systemctl restart lte ili service lte restart
   </pre>
 </div>
 
-Baznoj stanici je moguće pristupiti preko *remote API*-ja, korištenjem *remote PC*-a. Bitno je napomenuti da bazna stanica i računar moraju biti povezani na istu mrežu. Da bi se pristupilo baznoj stanici *remote* potrebno je korsititi bilo koji *web browser* gdje se unosi sljedeća komanda:
+Baznoj stanici je moguće pristupiti preko *remote API*-ja, korištenjem *remote PC*-a. Bitno je napomenuti da bazna stanica i računar moraju biti povezani na istu mrežu. Da bi se pristupilo baznoj stanici *remote* potrebno je korsititi bilo koji *web browser* gdje se unosi sljedeći URL:
 
 <div align="center">
   <pre>
