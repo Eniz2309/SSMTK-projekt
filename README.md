@@ -102,8 +102,12 @@ service lte status
   </pre>
 </div>
 
-OVDJE STAVITI SS STATUSA
-
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/service_lte_status.png" alt="PJSUA" width="800" />
+</p>
+<p align="center">
+  <em>Provjera statusa LTE servisa</em>
+</p>
 
 Ukoliko se vrši određena modifikacija konfiguracijskih fajlova, da bi se njen rad ažurirao potrebno je restartovati servise narednim komandama:
 <div align="center">
