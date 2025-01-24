@@ -416,12 +416,12 @@ Crontab je alat u linux operativnim sistema koji služi za *schedule*-ing proces
 </div>
 
 
-U nastavku je data crontab komanda, koju je potrebno unijeti u crontab editor i spasiti, koja pokreće *bash* skriptu svakih 5 minuta. 
+U nastavku je data crontab komanda, koju je potrebno unijeti u crontab editor i spasiti, koja pokreće *bash* skriptu svaka 3 sata. Ovaj parametar može biti varijabilan, međutim zbog toga što se audio fajl na stranici ažurira 4 puta na dan, dovoljan period za osvježavanje je 2 do 3 sata. 
 
 <div align="left">
   <pre>
   <code>
-    */5 * * * * /home/python_skripte/preuzimanje_i_konverzija.sh 
+    0 */3 * * * /home/python_skripte/preuzimanje_i_konverzija.sh 
 </code>
   </pre>
 </div>
