@@ -77,7 +77,7 @@ U prvom koraku realizacije, potrebno je povezati i konfigurisati uređaje koji �
 
 
 <p align="center">
-  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/amarisoft_konekcija.png" alt="Shematski prikaz povezivanje uređaja u mrežu" width="400" />
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/amarisoft_callbox_mini_arhitektura.png" alt="PJSUA" width="600" />
 </p>
 <p align="center">
   <em>Shematski prikaz povezivanja uređaja u mrežu</em>
