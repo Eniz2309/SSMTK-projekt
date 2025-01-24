@@ -21,4 +21,4 @@ Sa prethodne slike vidimo da su 3 instance u upostavi poziva. Ukoliko se analizi
   <em>ims users</em>
 </p>
 
-U prvom koraku, mobilni uređaj koji želi uspostaviti poziv, šalje *INVITE SDP* prema SIP serveru.
+U prvom koraku, mobilni uređaj koji želi uspostaviti poziv, šalje *INVITE SDP* prema SIP serveru. Zatim SIP server proslijeđuje *INVITE SDP* prema ciljnom mobilnom uređaju.
