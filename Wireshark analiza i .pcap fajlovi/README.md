@@ -10,5 +10,5 @@ Wireshark omogućava kreiranje MSC dijagrama na osnovu snimljenog saobraćaja.
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/VoLTE_invite.png" alt="*VoLTE* invite" width="700" />
 </p>
 <p align="center">
-  <em>PJSUA</em>
+  <em>*VoLTE* invite</em>
 </p>
