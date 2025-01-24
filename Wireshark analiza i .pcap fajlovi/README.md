@@ -3,9 +3,9 @@
 
 ## *VoLTE* poziv
 
-U Wireshark fajlu *VoLTE_poziv* je snimljeni saobraćaj uspostave *VoLTE* poziva između dva uređaja povezanih na baznu stanicu.
+U Wireshark fajlu *VoLTE_poziv* je snimljeni saobraćaj uspostave *VoLTE* poziva između dva uređaja povezanih na baznu stanicu. Jedna od mnogih prednosti *Wireshark*-a jeste i njegova mogućnost kreiranje MSC dijagrama od snimljenog saobraćaja. U opcijama *Telephony*, u sekciji *VoIP calls*
 
-Wireshark omogućava kreiranje MSC dijagrama na osnovu snimljenog saobraćaja. 
+
 <p align="center">
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/VoLTE_invite.png" alt="*VoLTE* invite" width="700" />
 </p>
