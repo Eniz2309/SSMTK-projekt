@@ -357,7 +357,7 @@ Da bi se moglo vršiti preuzimanje, potrebno je doći do linka sa kojeg se preuz
 
 ## Python skripta
 
-Za korištenje python programskog jezika, potrebno je imati python modul instaliran. Potrebno je napisati kod za skriptu koja će preuzimati fajl sa BIHAMK stranice, odnosno sa linka iz prethodne sekcije. Za tu svrhu je potrebno koristiti biblioteku *requests* koja se koristi za slanje *HTTP request*-a. Skripta za preuzimanje audio fajla je data u nastavku:
+Za korištenje python programskog jezika, potrebno je imati python modul instaliran. Potrebno je napisati kod za skriptu koja će preuzimati fajl sa BIHAMK stranice, odnosno sa linka iz prethodne sekcije. Link na kojem se nalazi audio fajl nije uvijek isti te je potrebno napraviti kod koji će vršiti prezuimanje HTML fajla stranice, a zatim vršiti njegovo parsiranje i pronalazak potrebnog linka. Za tu svrhu je potrebno koristiti biblioteku *requests* koja se koristi za slanje *HTTP request*-a. Skripta za preuzimanje audio fajla je data u nastavku:
 <div align="left">
   <pre>
   <code>
