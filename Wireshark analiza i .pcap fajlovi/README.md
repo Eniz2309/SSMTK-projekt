@@ -13,4 +13,4 @@ Wireshark omogućava kreiranje MSC dijagrama na osnovu snimljenog saobraćaja.
   <em>VoLTE invite</em>
 </p>
 
-Sa prethodne slike vidimo da su 3 instance u upostavi poziva. 
+Sa prethodne slike vidimo da su 3 instance u upostavi poziva. Ukoliko se analiziraju *users* u modulu *ims* 
