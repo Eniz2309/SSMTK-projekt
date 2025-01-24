@@ -27,3 +27,6 @@ U prvom koraku, mobilni uređaj koji želi uspostaviti poziv, šalje *INVITE SDP
 
 
 ## *VoNR* poziv
+
+U fajlu *VoNR_poziv_PJSUA* je sadržan snimljeni saobraćaj prilikom uspostave *VoNR* poziva, korištenjem *pjsua* klijenta. 
+
