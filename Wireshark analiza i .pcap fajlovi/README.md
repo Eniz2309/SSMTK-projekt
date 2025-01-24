@@ -1,1 +1,1 @@
-# U ovom dokumentu su analizirani .pcap zapisi *VoLTE* i *VoNR* poziva
+# Analiza .pcap zapisa *VoLTE* i *VoNR* poziva
