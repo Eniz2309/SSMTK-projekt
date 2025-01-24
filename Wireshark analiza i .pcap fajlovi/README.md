@@ -13,4 +13,10 @@ Wireshark omogućava kreiranje MSC dijagrama na osnovu snimljenog saobraćaja.
   <em>VoLTE invite</em>
 </p>
 
-Sa prethodne slike vidimo da su 3 instance u upostavi poziva. Ukoliko se analiziraju *users* u modulu *ims* 
+Sa prethodne slike vidimo da su 3 instance u upostavi poziva. Ukoliko se analiziraju *users* u modulu *ims*, može se jednostavno uočiti da su to IPv6 adrese mobilnih uređaja između kojih se uspotavlja poziv i SIP servera preko kojeg se poziv posreduje.
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/ims_users.png" alt="*VoLTE* invite" width="700" />
+</p>
+<p align="center">
+  <em>ims users</em>
+</p>
