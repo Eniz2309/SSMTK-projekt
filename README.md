@@ -323,7 +323,7 @@ Važno je napomenuti da je potrebno da *LTE* i *PJSUA* servisi trebaju biti pokr
   <em>PJSUA invite za poziv</em>
 </p>
 
-
+Sa slike se vidi da je *INVITE* tj. poziv upućen od strane mobilnog uređaja sa brojem 0600000123 prema sip serveru sip1234@amarisoft.com.
 Nakon obavljenog poziva, u PJSUA se prikaže statistika i podaci o obavljenom pozivu.
 
 <p align="center">
