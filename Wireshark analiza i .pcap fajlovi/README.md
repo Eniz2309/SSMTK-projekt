@@ -1,10 +1,11 @@
 # Analiza .pcap zapisa *VoLTE* i *VoNR* poziva
 
+
 ## Dekriptovanje ESP paketa u Wiresharku i izdvajanje SIP poruka
 
 Prije započinjanja snimanja i analize mrežnog saobraćaja, potrebno je izvršiti izmjene u datoteci **ims.cfg** i pravilno konfigurisati Wireshark kako bi se omogućila dekripcija i prikaz SIP protokola. Bez ovih podešavanja, SIP poruke će ostati nečitljive, a u Wiresharku će se prikazivati samo šifrirani podaci.
 
-## Podešavanje IMS Sistema za Prikaz SIP Poruka
+### Podešavanje IMS Sistema za Prikaz SIP Poruka
 
 Prvo je potrebno omogućiti zapisivanje ključnih parametara na IMS strani sistema. To se postiže izmjenom konfiguracijske datoteke `ims.cfg`. U sekciji `log_options` dodaje se sljedeći parametar:
 
@@ -18,7 +19,7 @@ ims.key=1
 
 Ova opcija omogućava sistemu da bilježi potrebne informacije, uključujući ključeve za autentifikaciju i enkripciju.
 
-## Konfiguracija Wiresharka za Prikaz SIP Poruka
+### Konfiguracija Wiresharka za Prikaz SIP Poruka
 
 Nakon što su parametri za zapisivanje ključnih podataka omogućeni, potrebno je konfigurisati Wireshark kako bi se dekriptovale i prikazale SIP poruke. 
 Za omogućavanje dekripcije i prikaza SIP poruka, potrebno je konfigurirati Wireshark na sljedeći način:
@@ -27,8 +28,8 @@ Korisnik treba otvoriti **Wireshark**, pristupiti postavkama putem **Edit > Pref
 Nakon što se otvori prozor za unos, potrebno je popuniti parametre na sljedeći način:
 
 <div align="center">
-  <pre>
-  <code>
+<pre>
+<code>
 Protocol: IPv4
 Src IP: *
 Dest IP: *
@@ -37,9 +38,10 @@ Encryption: AES-CBC [RFC3602]
 Encryption Key: 0x62695abf7237e9bed1714abd757bf52b
 Authentication: HMAC-SHA-1-96 [RFC2404]
 Authentication Key: 0xba4fadc076b74fdd97b26e0aa42ce9a700000000
-  </code>
-  </pre>
+</code>
+</pre>
 </div>
+
 
 Nakon što su ovi parametri uneseni i postavke spremljene, SIP poruke će postati vidljive i spremne za analizu.
 
