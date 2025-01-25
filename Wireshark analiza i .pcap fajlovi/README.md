@@ -62,7 +62,7 @@ Dijagram prikazuje uspostavu, tok i završetak VoLTE poziva, gdje se koristi SIP
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/VoLTE_invite.png" alt="*VoLTE* invite" width="700" />
 </p>
 <p align="center">
-  <em>VoLTE invite</em>
+  <em>Kreiranje MSC dijagrama</em>
 </p>
 
 Sa prethodne slike vidimo da su 3 instance u upostavi poziva. Ukoliko se analiziraju *users* u modulu *ims*, može se jednostavno uočiti da su to IPv6 adrese mobilnih uređaja između kojih se uspotavlja poziv i SIP servera preko kojeg se poziv posreduje.
