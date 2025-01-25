@@ -157,7 +157,7 @@ Konfiguracijski fajlovi (*.cfg*) svakih od prethodno navedenih modula se nalaze 
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/ue_db_cfg.png" alt="PJSUA" width="600" />
 </p>
 <p align="center">
-  <em>Koverzija audio formata preko ffmpeg alata</em>
+  <em>UE baza</em>
 </p>
 
 
