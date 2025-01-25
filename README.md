@@ -441,7 +441,7 @@ U nastavku je data crontab komanda, koju je potrebno unijeti u crontab editor i 
 <div align="left">
   <pre>
   <code>
-    0 */3 * * * /home/python_skripte/preuzimanje_i_konverzija.sh 
+    0 */3 * * * /home/python_skripte/konverzija.sh 
 </code>
   </pre>
 </div>
