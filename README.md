@@ -151,7 +151,18 @@ Konfiguracijski fajlovi (*.cfg*) svakih od prethodno navedenih modula se nalaze 
 
 ## Postavke *UE* baze 
 
-*UE* baza predstavlja bazu podataka gdje su smješteni podaci o mobilnim uređajima koji su povezani na baznu stanicu. Konfiguracijski fajle ove baze je *ue-db-ims.cfg*. Na narednoj slici je prikazan *ue-db-ims.cfg* fajl.Za pravilan rad *VoLTE* mreže potrebno je konfiguracija i podešavanje određenih opcija na samom mobilnom uređaju. 
+*UE* baza predstavlja bazu podataka gdje su smješteni podaci o mobilnim uređajima koji su povezani na baznu stanicu. Konfiguracijski fajle ove baze je *ue-db-ims.cfg*. Na narednoj slici je prikazan *ue-db-ims.cfg* fajl.
+
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/ue_db_cfg.png" alt="PJSUA" width="600" />
+</p>
+<p align="center">
+  <em>Koverzija audio formata preko ffmpeg alata</em>
+</p>
+
+
+
+Za pravilan rad *VoLTE* mreže potrebno je konfiguracija i podešavanje određenih opcija na samom mobilnom uređaju. 
 Svakom uređaju potrebno je dodijeliti jedinstveni telefonski broj koji se povezuje s njegovim IMEI brojem (*International Mobile Equipment Identity*), čime se osigurava ispravna VoLTE konfiguracija.
 
 IMEI svakog korisničkog uređaja može se saznati unosom koda *#06#. 
