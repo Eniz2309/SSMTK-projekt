@@ -421,6 +421,7 @@ python3 skripta_za_preuzimanje.py
   </pre>
 </div>
 
+Bitno je napomenuti da neki alati koji nisu *built-in* u operativnom sistemu, kao što je u ovom slučaju *ffmpeg*, se ne mogu pokrenuti u *bash* skriptama ukoliko se ne pozovu iz sistemskog direktorija gdje su i instalirane.
 
 ## Crontab
 
