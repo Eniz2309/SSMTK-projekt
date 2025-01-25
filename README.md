@@ -172,18 +172,7 @@ IMEI svakog korisničkog uređaja može se saznati unosom koda *#06#. Nakon što
 ## Postavke *VoLTE* mreže na mobilnom uređaju
 
 
-# Analiza snimljenog saobraćaja
 
-O wiresharku i pcap
-Snimanje saobraćaja na baznoj stanici se pohranjuje u *.pcap* fajlove, a komanda korištena za to jeste *tcpdump*. Budući da se *.pcap* fajlovi mogu analizirati preko *Wireshark*-a, čiji *GUI* nije moguće pokrenuti u terminalu bazne stanice, snimljene fajlove je potrebno prebaciti na *remote* računar. Kako su bazna stanica i računar u istoj mreži, na *remote* računar se mogu kopirati *.pcap* fajlovi sa bazne stanice preko *scp* komande:
-
-<div align="center">
-  <pre>
-  <code>
-scp ime_korisnika@IP_ADRESA_BAZNE_STANICE:/root/DIREKTORIJ_U_KOME_SU_POHRANJENI_PCAP_FAJLOVI C:\Users\DIREKTORIJ_GDJE_ĆE_BITI_POHRANJENI_FAJLOVI_NA_PC
-  </code>
-  </pre>
-</div>
 
 
 # *PJSUA* (*PJSIP USER AGENT*)
@@ -464,6 +453,20 @@ Pregled pokrenutih taskova u crontabu se može izvršiti sljedećom komandom
 </code>
   </pre>
 </div>
+
+# Analiza snimljenog saobraćaja
+
+Snimanje saobraćaja na baznoj stanici se pohranjuje u *.pcap* fajlove, a komanda korištena za to jeste *tcpdump*. Budući da se *.pcap* fajlovi mogu analizirati preko *Wireshark*-a, čiji *GUI* nije moguće pokrenuti u terminalu bazne stanice, snimljene fajlove je potrebno prebaciti na *remote* računar. Kako su bazna stanica i računar u istoj mreži, na *remote* računar se mogu kopirati *.pcap* fajlovi sa bazne stanice preko *scp* komande:
+
+<div align="center">
+  <pre>
+  <code>
+scp ime_korisnika@IP_ADRESA_BAZNE_STANICE:/root/DIREKTORIJ_U_KOME_SU_POHRANJENI_PCAP_FAJLOVI C:\Users\DIREKTORIJ_GDJE_ĆE_BITI_POHRANJENI_FAJLOVI_NA_PC
+  </code>
+  </pre>
+</div>
+
+U direktoriju *Wireshark i .pcap fajlovi* se nalaze snimljeni saobraćaj za *VoLTE* i *VoNR* pozive, njihovi MSC dijagrami kao i analiza istih.
 
 
 # Zaključak
