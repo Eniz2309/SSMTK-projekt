@@ -311,7 +311,7 @@ Važno je napomenuti da je potrebno da *LTE* i *PJSUA* servisi trebaju biti pokr
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/ims_users_nepodvuceno.png" alt="PJSUA" width="600" />
 </p>
 <p align="center">
-  <em>PJSUA</em>
+  <em>Users u ims screenu</em>
 </p>
 
 *PJSUA* će u terminalu ispisivati šta se trenutno dešava na tom servisu. Na narednoj slici je primjer poruke (*msg*) koju *PJSUA* ispisuje kada neki korisnik pozove ovaj servis.
@@ -330,7 +330,7 @@ Nakon obavljenog poziva, u PJSUA se prikaže statistika i podaci o obavljenom po
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/statistika_poziva.png" alt="PJSUA" width="600" />
 </p>
 <p align="center">
-  <em>SIP klijent u ims screenu</em>
+  <em>Statistika poziva u PJSUA</em>
 </p>
 
 
