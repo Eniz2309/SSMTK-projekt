@@ -320,7 +320,7 @@ Važno je napomenuti da je potrebno da *LTE* i *PJSUA* servisi trebaju biti pokr
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/PJSUA_invite.png" alt="PJSUA" width="800" />
 </p>
 <p align="center">
-  <em>SIP klijent u ims screenu</em>
+  <em>PJSUA invite za poziv</em>
 </p>
 
 
