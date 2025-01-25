@@ -24,7 +24,7 @@ Sa prethodne slike vidimo da su 3 instance u upostavi poziva. Ukoliko se analizi
 U prvom koraku, mobilni uređaj koji želi uspostaviti poziv, šalje *INVITE SDP* prema SIP serveru. Zatim SIP server proslijeđuje *INVITE SDP* prema ciljnom mobilnom uređaju. Nadalje, 
 
 <p align="center">
-  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/VoLTE_2dio" alt="*VoLTE* invite" width="700" />
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/VoLTE_2dio.png" alt="VoLTE" width="700" />
 </p>
 <p align="center">
   <em>VoLTE Wireshark</em>
