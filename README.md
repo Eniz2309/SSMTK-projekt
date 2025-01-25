@@ -485,4 +485,5 @@ Testiranjem VoLTE/VoNR bazirane usluge informisanja o stanju na putevima demonst
 - https://tech-academy.amarisoft.com/LTE_VoLTE_Loopback.html
 - https://tech-academy.amarisoft.com/volte_support.wiki
 - https://stackoverflow.com/questions/480764/linux-error-while-loading-shared-libraries-cannot-open-shared-object-file-no-s
-
+- https://www.pjsip.org/download.htm
+- https://trac.pjsip.org/repos/wiki/Using-OpenCORE-AMR-NB-WB-Codec
