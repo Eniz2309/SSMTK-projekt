@@ -4,7 +4,7 @@ PROJEKTNI ZADATAK - IZVJEŠTAJ
 
 Ovdje će biti uploadani materijali za SSMTK projekt tema 2
 
-**Posljednje izmjene 24.01.2025**
+**Posljednje izmjene 25.01.2025**
 
 # Uvod #
 
@@ -161,13 +161,8 @@ Konfiguracijski fajlovi (*.cfg*) svakih od prethodno navedenih modula se nalaze 
 </p>
 
 
-
-Za pravilan rad *VoLTE* mreže potrebno je konfiguracija i podešavanje određenih opcija na samom mobilnom uređaju. 
 Svakom uređaju potrebno je dodijeliti jedinstveni telefonski broj koji se povezuje s njegovim IMEI brojem (*International Mobile Equipment Identity*), čime se osigurava ispravna VoLTE konfiguracija.
-
-IMEI svakog korisničkog uređaja može se saznati unosom koda *#06#. 
-Prvi IMEI je povezan s brojem 0600000123.
-Drugi IMEI je povezan s brojem 0600000124.
+IMEI svakog korisničkog uređaja može se saznati unosom koda *#06#. Nakon što se dođe do IMEI-a mobitela, potrebno je isti u *UE* bazi povezati sa željenim pozivnim brojem. Kao što se vidi sa prethodne slike, prvi IMEI je povezan s brojem 0600000123, drugi IMEI je povezan s brojem 0600000124.
 
 
 
