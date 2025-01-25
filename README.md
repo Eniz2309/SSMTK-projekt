@@ -166,15 +166,6 @@ IMEI svakog korisničkog uređaja može se saznati unosom koda *#06#. Nakon što
 
 
 
-
-
-
-## Postavke *VoLTE* mreže na mobilnom uređaju
-
-
-
-
-
 # *PJSUA* (*PJSIP USER AGENT*)
 
 PJSUA je komandna linija SIP korisničkog agenta (*softphone*) temeljen na PJSIP open-source SIP biblioteci. Iako se koristi kao referentna implementacija za PJSIP, PJNATH i PJMEDIA, PJSUA nudi bogat skup funkcionalnosti za testiranje i rješavanje problema u SIP instalacijama. 
