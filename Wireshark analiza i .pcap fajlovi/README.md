@@ -48,3 +48,12 @@ Dijagram također pokazuje precizne vremenske oznake za svaku poruku i RTP tok, 
 
 U fajlu *VoNR_poziv_PJSUA* je sadržan snimljeni saobraćaj prilikom uspostave *VoNR* poziva, korištenjem *pjsua* klijenta. 
 
+Kada korisnik pozove broj koji je konfigurisan za automatski odgovor, proces započinje standardnom SIP signalizacijom, gdje uređaj inicijatora šalje SIP INVITE poruku sa SDP-om prema IMS infrastrukturi. SDP u ovoj poruci pregovara audio parametre, kao što su podržani kodeci poput AMR-WB (za visokokvalitetni zvuk) i AMR, kako bi se omogućilo optimalno dekodiranje unaprijed snimljenog odgovora.
+
+Po prijemu INVITE poruke, IMS infrastruktura odgovara sa 100 Trying, čime se potvrđuje da je zahtjev primljen i prosljeđuje se serveru odgovornom za automatizirani odgovor. Ovaj server, koji može biti Media Resource Function (MRF) unutar IMS-a, zatim šalje povratni 183 Session Progress sa SDP-om. Ovo je ključno jer omogućava uspostavu RTP toka još prije nego što pozivatelj dobije zvučni signal "zvoni".
+
+Kao dio pouzdane signalizacije, šalje se PRACK, koja se potvrđuje sa 200 OK, osiguravajući da se privremeni odgovori ispravno prenose. UPDATE poruke omogućavaju dodatna ažuriranja SDP-a prije nego što se reprodukcija snimljenog odgovora započne. Kada je sve spremno, šalje se 200 OK, praćeno sa ACK, čime je RTP kanal potpuno uspostavljen.
+
+Tokom ove faze, RTP prenosi unaprijed snimljeni audio sadržaj od servera prema korisniku. Ovo se može prepoznati kroz RTP tokove označene SSRC identifikatorima u dijagramu. Broj paketa i trajanje RTP tokova ukazuju na to koliko je audio sadržaj dugačak.
+
+Nakon završetka reprodukcije audio snimka, automatizirani sistem završava poziv šaljući BYE poruku. Odgovor na ovu poruku je 200 OK, čime se potvrđuje uspješan završetak sesije. Ovaj tok omogućava da korisnici brzo dobiju potrebne informacije bez interakcije sa stvarnim agentom.
