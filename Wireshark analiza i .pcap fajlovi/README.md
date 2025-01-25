@@ -27,18 +27,18 @@ Za omogućavanje dekripcije i prikaza SIP poruka, potrebno je konfigurirati Wire
 Potrebno je otvoriti **Wireshark**, pristupiti postavkama putem **Edit > Preferences**, te u sekciji **Protocols** odabrati **ESP**. Nakon toga, potrebno je označiti sve dostupne opcije (checkbox-ove) i kliknuti na dugme **Edit**. 
 Nakon što se otvori prozor za unos, potrebno je popuniti parametre na sljedeći način:
 
-<div align="center">
-<code>
-Protocol: IPv4  
-Src IP: *  
-Dest IP: *  
-SPI: 2564331439  
-Encryption: AES-CBC [RFC3602]  
-Encryption Key: 0x62695abf7237e9bed1714abd757bf52b  
-Authentication: HMAC-SHA-1-96 [RFC2404]  
-Authentication Key: 0xba4fadc076b74fdd97b26e0aa42ce9a700000000  
-</code>
-</div>
+| Field              | Value                                        |
+|--------------------|----------------------------------------------|
+| Protocol           | IPv4                                        |
+| Src IP             | *                                           |
+| Dest IP            | *                                           |
+| SPI                | 2564331439                                  |
+| Encryption         | AES-CBC [RFC3602]                           |
+| Encryption Key     | 0x62695abf7237e9bed1714abd757bf52b          |
+| Authentication     | HMAC-SHA-1-96 [RFC2404]                     |
+| Authentication Key | 0xba4fadc076b74fdd97b26e0aa42ce9a700000000  |
+
+
 
 Nakon što su ovi parametri uneseni i postavke spremljene, SIP poruke će postati vidljive i spremne za analizu.
 
