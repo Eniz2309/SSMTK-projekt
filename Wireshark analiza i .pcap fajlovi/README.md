@@ -44,7 +44,7 @@ Nakon što su ovi parametri uneseni i postavke spremljene, SIP poruke će postat
 
 ## *VoLTE* poziv
 
-U Wireshark fajlu *VoLTE_poziv* je snimljeni saobraćaj uspostave *VoLTE* poziva između dva uređaja povezanih na baznu stanicu. Jedna od mnogih prednosti *Wireshark*-a jeste i njegova mogućnost kreiranje MSC dijagrama od snimljenog saobraćaja. U opcijama *Telephony*, u sekciji *VoIP calls*
+U Wireshark fajlu *VoLTE_poziv* je snimljeni saobraćaj uspostave *VoLTE* poziva između dva uređaja povezanih na baznu stanicu. Jedna od mnogih prednosti *Wireshark*-a jeste i njegova mogućnost kreiranje MSC dijagrama od snimljenog saobraćaja. U meniju *Telephony*, odabirom opcije *VoIP calls*
 
 <p align="center">
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/VOIP_CALLS.png" alt="*VoLTE* invite" width="700" />
@@ -53,7 +53,7 @@ U Wireshark fajlu *VoLTE_poziv* je snimljeni saobraćaj uspostave *VoLTE* poziva
   <em>VoLTE invite</em>
 </p>
 
-
+, otvara se prozor kao na prethodnoj slici. MSC dijagram se kreira 
 
 Dijagram prikazuje uspostavu, tok i završetak VoLTE poziva, gdje se koristi SIP (Session Initiation Protocol) za signalizaciju, a RTP (Real-Time Transport Protocol) za prijenos glasovnih podataka. Na samom početku, klijent koji inicira poziv šalje SIP INVITE poruku sa SDP-om (Session Description Protocol) prema odredištu, pri čemu SDP sadrži informacije o podržanim kodecima (kao što su AMR-WB i AMR) i dodatnim opcijama, poput podrške za DTMF signale putem RTP-a. Ova INVITE poruka prolazi kroz IMS infrastrukturu, koja uključuje ključne čvorove poput P-CSCF-a i S-CSCF-a, te stiže do krajnjeg korisnika ili serverskog čvora.
 
