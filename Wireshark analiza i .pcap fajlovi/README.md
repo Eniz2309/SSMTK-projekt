@@ -24,24 +24,21 @@ Ova opcija omogućava sistemu da bilježi potrebne informacije, uključujući kl
 Nakon što su parametri za zapisivanje ključnih podataka omogućeni, potrebno je konfigurisati Wireshark kako bi se dekriptovale i prikazale SIP poruke. 
 Za omogućavanje dekripcije i prikaza SIP poruka, potrebno je konfigurirati Wireshark na sljedeći način:
 
-Korisnik treba otvoriti **Wireshark**, pristupiti postavkama putem **Edit > Preferences**, te u sekciji **Protocols** odabrati **ESP**. Nakon toga, potrebno je označiti sve dostupne opcije (checkbox-ove) i kliknuti na dugme **Edit**. 
+Potrebno je otvoriti **Wireshark**, pristupiti postavkama putem **Edit > Preferences**, te u sekciji **Protocols** odabrati **ESP**. Nakon toga, potrebno je označiti sve dostupne opcije (checkbox-ove) i kliknuti na dugme **Edit**. 
 Nakon što se otvori prozor za unos, potrebno je popuniti parametre na sljedeći način:
 
 <div align="center">
-<pre>
 <code>
-Protocol: IPv4
-Src IP: *
-Dest IP: *
-SPI: 2564331439
-Encryption: AES-CBC [RFC3602]
-Encryption Key: 0x62695abf7237e9bed1714abd757bf52b
-Authentication: HMAC-SHA-1-96 [RFC2404]
-Authentication Key: 0xba4fadc076b74fdd97b26e0aa42ce9a700000000
+Protocol: IPv4  
+Src IP: *  
+Dest IP: *  
+SPI: 2564331439  
+Encryption: AES-CBC [RFC3602]  
+Encryption Key: 0x62695abf7237e9bed1714abd757bf52b  
+Authentication: HMAC-SHA-1-96 [RFC2404]  
+Authentication Key: 0xba4fadc076b74fdd97b26e0aa42ce9a700000000  
 </code>
-</pre>
 </div>
-
 
 Nakon što su ovi parametri uneseni i postavke spremljene, SIP poruke će postati vidljive i spremne za analizu.
 
