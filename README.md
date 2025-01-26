@@ -467,7 +467,7 @@ scp ime_korisnika@IP_ADRESA_BAZNE_STANICE:/root/DIREKTORIJ_U_KOME_SU_POHRANJENI_
   </pre>
 </div>
 
-U direktoriju *MSC dijagrami i .pcap fajlovi* se nalaze snimljeni saobraćaj za *VoLTE* i *VoNR* pozive, kao i njihovi MSC dijagrami.
+U direktoriju *Wireshark analiza i .pcap fajlovi* se nalaze snimljeni saobraćaj za *VoLTE* i *VoNR* pozive, kao i njihovi MSC dijagrami.
 
 ## Dekriptovanje ESP paketa u Wiresharku i izdvajanje SIP poruka
 
