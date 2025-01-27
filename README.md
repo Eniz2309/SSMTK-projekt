@@ -164,6 +164,16 @@ Konfiguracijski fajlovi (*.cfg*) svakih od prethodno navedenih modula se nalaze 
 Svakom uređaju potrebno je dodijeliti jedinstveni telefonski broj koji se povezuje s njegovim IMEI brojem (*International Mobile Equipment Identity*), čime se osigurava ispravna VoLTE konfiguracija.
 IMEI svakog korisničkog uređaja može se saznati unosom koda *#06#. Nakon što se dođe do IMEI-a mobitela, potrebno je isti u *UE* bazi povezati sa željenim pozivnim brojem. Kao što se vidi sa prethodne slike, prvi IMEI je povezan s brojem 0600000123, drugi IMEI je povezan s brojem 0600000124.
 
+Kada je u pitanju mobilni uređaj, potrebno mu je u postavkama dodijeliti novi *APN* (Access point name). 
+
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/Postavke_mobitela_volte.png" alt="PJSUA" width="600" />
+</p>
+<p align="center">
+  <em>UE baza</em>
+</p>
+
+
 
 
 # *PJSUA* (*PJSIP USER AGENT*)
