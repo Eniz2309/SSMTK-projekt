@@ -164,7 +164,7 @@ Konfiguracijski fajlovi (*.cfg*) svakih od prethodno navedenih modula se nalaze 
 Svakom uređaju potrebno je dodijeliti jedinstveni telefonski broj koji se povezuje s njegovim IMEI brojem (*International Mobile Equipment Identity*), čime se osigurava ispravna VoLTE konfiguracija.
 IMEI svakog korisničkog uređaja može se saznati unosom koda *#06#. Nakon što se dođe do IMEI-a mobitela, potrebno je isti u *UE* bazi povezati sa željenim pozivnim brojem. Kao što se vidi sa prethodne slike, prvi IMEI je povezan s brojem 0600000123, drugi IMEI je povezan s brojem 0600000124.
 
-Kada je u pitanju mobilni uređaj, potrebno mu je u postavkama dodijeliti novi *APN* (Access point name). 
+Kada je u pitanju mobilni uređaj, potrebno mu je u postavkama dodijeliti novi *APN* (Access point name).  Za konfiguraciju potrebno je ići u postavke, zatim na "Više mreža" i "Mobilne mreže", te omogućiti opciju za podatkovni roaming. Nakon toga, potrebno je vratiti se na opciju "Mobilna mreža" i dodati prvi APN sa sljedećim parametrima: naziv "Internet", APN "internet", a tip APN-a "internet,default" ili samo "default" u zavisnosti od modela uređaja. Ove postavke je potrebno sačuvati i odabrati ovaj APN. Zatim je potrebno dodati drugi APN sa parametrima: naziv "IMS", APN "ims", a tip APN-a "ims". Ovaj APN je potrebno sačuvati, ali ga nije potrebno odabrati (možda neće biti prikazan). Na kraju, potrebno je restartovati telefon.
 
 <p align="center">
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/Postavke_mobitela_volte.jpg" alt="PJSUA" width="600" />
