@@ -167,7 +167,7 @@ IMEI svakog korisničkog uređaja može se saznati unosom koda *#06#. Nakon što
 Kada je u pitanju mobilni uređaj, potrebno mu je u postavkama dodijeliti novi *APN* (Access point name). 
 
 <p align="center">
-  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/Postavke_mobitela_volte.png" alt="PJSUA" width="600" />
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/Postavke_mobitela_volte.jpg" alt="PJSUA" width="600" />
 </p>
 <p align="center">
   <em>UE baza</em>
