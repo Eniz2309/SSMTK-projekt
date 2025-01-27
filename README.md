@@ -170,7 +170,7 @@ Kada je u pitanju mobilni uređaj, potrebno mu je u postavkama dodijeliti novi *
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/Postavke_mobitela_volte.jpg" alt="PJSUA" width="600" />
 </p>
 <p align="center">
-  <em>UE baza</em>
+  <em>APN postavke mobilnog uređaja</em>
 </p>
 
 
