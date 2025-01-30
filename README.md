@@ -568,7 +568,16 @@ Nakon završetka pregovora i odgovora u obliku 200 OK, šalje se ACK, čime se m
 
 Kada pozivatelj ili primatelj odluči prekinuti poziv, šalje se BYE poruka kako bi se signalizirao završetak sesije. Odredište odgovara sa 200 OK, čime se osigurava uspješno zatvaranje sesije. Cijeli proces uključuje nekoliko iteracija signalizacije između različitih čvorova IMS infrastrukture i uređaja, uz korištenje standardnih SIP procedura za uspostavu, održavanje i završetak poziva.
 
-Dijagram također pokazuje precizne vremenske oznake za svaku poruku i RTP tok, omogućujući detaljnu analizu kašnjenja i performansi mreže. Ovo je ključni korak za razumijevanje VoLTE poziva, jer omogućava otkrivanje potencijalnih problema u pregovorima o kodecima, kašnjenjima u uspostavi medijskog kanala, te efikasnosti završetka sesije
+Dijagram također pokazuje precizne vremenske oznake za svaku poruku i RTP tok, omogućujući detaljnu analizu kašnjenja i performansi mreže. Ovo je ključni korak za razumijevanje VoLTE poziva, jer omogućava otkrivanje potencijalnih problema u pregovorima o kodecima, kašnjenjima u uspostavi medijskog kanala, te efikasnosti završetka sesije.
+
+Detalji o pozivu se mogu vidjeti i u specifičnim porukama u samom SIP protokolu, kao što su *INVITE*, *Trying*, *Ack*, *UPDATE* itd. 
+
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/SIP_invite_dekodiran.png" alt="VoLTE" width="700" />
+</p>
+<p align="center">
+  <em>SIP INVITE - dekodiran</em>
+</p>
 
 
 
