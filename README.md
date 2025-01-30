@@ -594,6 +594,12 @@ Detalji o pozivu se mogu vidjeti i u specifičnim porukama u samom SIP protokolu
   <em>SIP UPDATE - dekodiran</em>
 </p>
 
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/SIP_ACK_dekodiran.png" alt="VoLTE" width="900" />
+</p>
+<p align="center">
+  <em>SIP ACK - dekodiran</em>
+</p>
 
 
 
