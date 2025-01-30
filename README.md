@@ -580,6 +580,14 @@ Detalji o pozivu se mogu vidjeti i u specifičnim porukama u samom SIP protokolu
 </p>
 
 
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/SIP_183_dekodiran.png" alt="VoLTE" width="900" />
+</p>
+<p align="center">
+  <em>SIP 183 Session Progress - dekodiran</em>
+</p>
+
+
 
 ## *VoNR* poziv
 
