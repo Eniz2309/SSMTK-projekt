@@ -4,7 +4,7 @@ PROJEKTNI ZADATAK - IZVJEŠTAJ
 
 Ovdje će biti uploadani materijali za SSMTK projekt tema 2
 
-**Posljednje izmjene 25.01.2025**
+**Posljednje izmjene 30.01.2025**
 
 # Uvod #
 
