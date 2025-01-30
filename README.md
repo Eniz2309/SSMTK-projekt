@@ -570,7 +570,9 @@ Kada pozivatelj ili primatelj odluči prekinuti poziv, šalje se BYE poruka kako
 
 Dijagram također pokazuje precizne vremenske oznake za svaku poruku i RTP tok, omogućujući detaljnu analizu kašnjenja i performansi mreže. Ovo je ključni korak za razumijevanje VoLTE poziva, jer omogućava otkrivanje potencijalnih problema u pregovorima o kodecima, kašnjenjima u uspostavi medijskog kanala, te efikasnosti završetka sesije.
 
-Detalji o pozivu se mogu vidjeti i u specifičnim porukama u samom SIP protokolu, kao što su *INVITE*, *Trying*, *Ack*, *UPDATE* itd. 
+Detalji o pozivu se mogu vidjeti i u specifičnim porukama u samom SIP protokolu, kao što su *INVITE*, *Trying*, *Ack*, *UPDATE* itd. U ovim porukama se mogu vidjeti parametri kao što su Session Description Protocol (SDP) informacije, koje definišu kodeke, IP adrese i portove za RTP medijski tok, Call-ID, koji identifikuje jedinstveni poziv, From i To headeri, koji označavaju učesnike poziva, CSeq broj, koji prati redoslijed SIP poruka, te različiti headeri vezani za VoLTE, poput P-Asserted-Identity (za autentifikaciju identiteta pozivaoca) i Contact (koji specificira adresu uređaja). Također, mogu se primijetiti QoS parametri, poput SIP precondition-a, koji osigurava da su medijski resursi rezervisani prije uspostavljanja poziva.
+
+Dodatno, poruke sadrže informacije o izvorišnoj i odredišnoj IP adresi (Source i Destination), koje određuju gdje se šalju i odakle dolaze SIP poruke. User-Agent header identifikuje softverski klijent koji inicira poziv, što može biti korisno za analizu kompatibilnosti uređaja i mrežnih komponenti. Ovi podaci su ključni za razumijevanje toka signalizacije, dijagnostiku problema i optimizaciju VoLTE poziva.
 
 <p align="center">
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/SIP_invite_dekodiran.png" alt="VoLTE" width="900" />
