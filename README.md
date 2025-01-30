@@ -573,7 +573,7 @@ Dijagram također pokazuje precizne vremenske oznake za svaku poruku i RTP tok, 
 Detalji o pozivu se mogu vidjeti i u specifičnim porukama u samom SIP protokolu, kao što su *INVITE*, *Trying*, *Ack*, *UPDATE* itd. 
 
 <p align="center">
-  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/SIP_invite_dekodiran.png" alt="VoLTE" width="700" />
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/SIP_invite_dekodiran.png" alt="VoLTE" width="900" />
 </p>
 <p align="center">
   <em>SIP INVITE - dekodiran</em>
