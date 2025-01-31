@@ -1,0 +1,286 @@
+INVITE tel:0600000123;phone-context=ims.mnc001.mcc001.3gppnetwork.org SIP/2.0
+From: <sip:001010123456789@ims.mnc001.mcc001.3gppnetwork.org>;tag=qqecbBv
+To: "0600000123"<tel:0600000123;phone-context=ims.mnc001.mcc001.3gppnetwork.org>
+P-Preferred-Identity: <sip:001010123456789@ims.mnc001.mcc001.3gppnetwork.org>
+Contact: <sip:001010123456789@[2001:468:3000:2:2001:468:3000:2]:31879>;+sip.instance="<urn:gsma:imei:86778604-063340-0>";+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel";audio;video;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting
+Accept-Contact: *;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+P-Access-Network-Info: 3GPP-E-UTRAN-FDD;utran-cell-id-3gpp=0010100011A2D001
+P-Preferred-Service: urn:urn-7:3gpp-service.ims.icsi.mmtel
+P-Early-Media: supported
+Supported: 100rel,histinfo,join,norefersub,precondition,replaces,timer,sec-agree
+Allow: INVITE,ACK,OPTIONS,BYE,CANCEL,UPDATE,INFO,PRACK,NOTIFY,MESSAGE,REFER
+Accept: application/sdp,application/3gpp-ims+xml
+Session-Expires: 1800
+Min-SE: 90
+Route: <sip:[2001:468:3000:1::]:36652;lr>
+Require: sec-agree
+Proxy-Require: sec-agree
+Security-Verify: ipsec-3gpp;prot=esp;mod=trans;spi-c=2437875;spi-s=2437876;port-c=50205;port-s=36652;alg=hmac-sha-1-96;ealg=null
+Call-ID: dpecbBvJ0@[2001:468:3000:2:2001:468:3000:2]
+CSeq: 1 INVITE
+Max-Forwards: 70
+Via: SIP/2.0/TCP [2001:468:3000:2:2001:468:3000:2]:31879;branch=z9hG4bKrrecbBvJ0qfrnkbaaq8v;rport
+User-Agent: IM-client/OMA1.0 HW-Rto/V1.0
+Content-Type: application/sdp
+Content-Length: 810
+
+v=0
+o=rue 3204 3204 IN IP6 2001:468:3000:2:2001:468:3000:2
+s=-
+c=IN IP6 2001:468:3000:2:2001:468:3000:2
+b=AS:49
+b=RR:1837
+b=RS:612
+t=0 0
+m=audio 31008 RTP/AVP 107 106 105 104 101 102
+b=AS:49
+b=RR:1837
+b=RS:612
+a=rtpmap:107 AMR-WB/16000/1
+a=fmtp:107 mode-change-capability=2;max-red=0
+a=rtpmap:106 AMR-WB/16000/1
+a=fmtp:106 octet-align=1;mode-change-capability=2;max-red=0
+a=rtpmap:105 AMR/8000/1
+a=fmtp:105 mode-change-capability=2;max-red=0
+a=rtpmap:104 AMR/8000/1
+a=fmtp:104 octet-align=1;mode-change-capability=2;max-red=0
+a=rtpmap:101 telephone-event/16000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/8000
+a=fmtp:102 0-15
+a=ptime:20
+a=maxptime:240
+a=sendrecv
+a=curr:qos local none
+a=curr:qos remote none
+a=des:qos mandatory local sendrecv
+a=des:qos optional remote sendrecv
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/TCP [2001:468:3000:2:2001:468:3000:2]:31879;branch=z9hG4bKrrecbBvJ0qfrnkbaaq8v;rport
+From: <sip:001010123456789@ims.mnc001.mcc001.3gppnetwork.org>;tag=qqecbBv
+To: "0600000123" <tel:0600000123;phone-context=ims.mnc001.mcc001.3gppnetwork.org>
+Call-ID: dpecbBvJ0@[2001:468:3000:2:2001:468:3000:2]
+CSeq: 1 INVITE
+Allow: REGISTER,SUBSCRIBE,INVITE,ACK,CANCEL,PRACK,UPDATE,BYE,MESSAGE
+Max-Forwards: 70
+Supported: sec-agree
+Security-Server: ipsec-3gpp;prot=esp;mod=trans;spi-c=2437875;spi-s=2437876;port-c=50205;port-s=36652;alg=hmac-sha-1-96;ealg=null
+Server: Amarisoft-IMS-2020-09-14
+Content-Length: 0
+
+SIP/2.0 183 Session Progress
+Via: SIP/2.0/TCP [2001:468:3000:2:2001:468:3000:2]:31879;branch=z9hG4bKrrecbBvJ0qfrnkbaaq8v;rport
+From: <sip:001010123456789@ims.mnc001.mcc001.3gppnetwork.org>;tag=qqecbBv
+To: "0600000123" <tel:0600000123;phone-context=ims.mnc001.mcc001.3gppnetwork.org>;tag=6499557184ea2fc3
+Call-ID: dpecbBvJ0@[2001:468:3000:2:2001:468:3000:2]
+CSeq: 1 INVITE
+Contact: <sip:001010123456789@[2001:468:3000:1::]:36652>
+Content-Type: application/sdp
+Max-Forwards: 70
+Supported: sec-agree
+Security-Server: ipsec-3gpp;prot=esp;mod=trans;spi-c=2437875;spi-s=2437876;port-c=50205;port-s=36652;alg=hmac-sha-1-96;ealg=null
+Server: Amarisoft-IMS-2020-09-14
+Require: 100rel,precondition
+RSeq: 1
+Content-Length:   508
+
+v=0
+o=Amarisoft-IMS-2020-09-14 952804597306 1 IN IP6 2001:468:3000:1::
+s=Amarisoft-IMS-2020-09-14
+c=IN IP6 2001:468:3000:1::
+t=0 0
+m=audio 10006 RTP/AVP 107 101
+b=AS:49
+b=RS:0
+b=RR:0
+a=rtpmap:107 AMR-WB/16000/1
+a=fmtp:107 mode-change-capability=2;max-red=0
+a=rtpmap:101 telephone-event/16000
+a=fmtp:101 0-15
+a=ptime:20
+a=maxptime:240
+a=sendrecv
+a=curr:qos local none
+a=curr:qos remote none
+a=des:qos optional local sendrecv
+a=des:qos mandatory remote sendrecv
+a=conf:qos remote sendrecv
+
+PRACK sip:001010123456789@[2001:468:3000:1::]:36652 SIP/2.0
+From: <sip:001010123456789@ims.mnc001.mcc001.3gppnetwork.org>;tag=qqecbBv
+To: "0600000123"<tel:0600000123;phone-context=ims.mnc001.mcc001.3gppnetwork.org>;tag=6499557184ea2fc3
+Call-ID: dpecbBvJ0@[2001:468:3000:2:2001:468:3000:2]
+CSeq: 2 PRACK
+Max-Forwards: 70
+Supported: 100rel,histinfo,join,norefersub,precondition,replaces,timer
+P-Access-Network-Info: 3GPP-E-UTRAN-FDD;utran-cell-id-3gpp=0010100011A2D001
+Via: SIP/2.0/UDP [2001:468:3000:2:2001:468:3000:2]:31879;branch=z9hG4bKssecbRn7IG9P72caai8v;rport
+RAck: 1 1 INVITE
+User-Agent: IM-client/OMA1.0 HW-Rto/V1.0
+Content-Length: 0
+
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP [2001:468:3000:2:2001:468:3000:2]:31879;branch=z9hG4bKssecbRn7IG9P72caai8v;rport
+From: <sip:001010123456789@ims.mnc001.mcc001.3gppnetwork.org>;tag=qqecbBv
+To: "0600000123" <tel:0600000123;phone-context=ims.mnc001.mcc001.3gppnetwork.org>;tag=6499557184ea2fc3
+Call-ID: dpecbBvJ0@[2001:468:3000:2:2001:468:3000:2]
+CSeq: 2 PRACK
+Allow: REGISTER,SUBSCRIBE,INVITE,ACK,CANCEL,PRACK,UPDATE,BYE,MESSAGE
+Max-Forwards: 70
+Supported: sec-agree
+Security-Server: ipsec-3gpp;prot=esp;mod=trans;spi-c=2437875;spi-s=2437876;port-c=50205;port-s=36652;alg=hmac-sha-1-96;ealg=null
+Server: Amarisoft-IMS-2020-09-14
+Content-Length: 0
+
+
+UPDATE sip:001010123456789@[2001:468:3000:1::]:36652 SIP/2.0
+From: <sip:001010123456789@ims.mnc001.mcc001.3gppnetwork.org>;tag=qqecbBv
+To: "0600000123"<tel:0600000123;phone-context=ims.mnc001.mcc001.3gppnetwork.org>;tag=6499557184ea2fc3
+Contact: <sip:001010123456789@[2001:468:3000:2:2001:468:3000:2]:31879>;+sip.instance="<urn:gsma:imei:86778604-063340-0>";+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel";audio;video;+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting
+P-Access-Network-Info: 3GPP-E-UTRAN-FDD;utran-cell-id-3gpp=0010100011A2D001
+Supported: 100rel,histinfo,join,norefersub,precondition,replaces,timer,sec-agree
+Require: precondition,sec-agree
+Allow: INVITE,ACK,OPTIONS,BYE,CANCEL,UPDATE,INFO,PRACK,NOTIFY,MESSAGE,REFER
+Proxy-Require: sec-agree
+Security-Verify: ipsec-3gpp;prot=esp;mod=trans;spi-c=2437875;spi-s=2437876;port-c=50205;port-s=36652;alg=hmac-sha-1-96;ealg=null
+Call-ID: dpecbBvJ0@[2001:468:3000:2:2001:468:3000:2]
+CSeq: 3 UPDATE
+Max-Forwards: 70
+Via: SIP/2.0/TCP [2001:468:3000:2:2001:468:3000:2]:31879;branch=z9hG4bKttecbRn7IG9P72caaO8v;rport
+User-Agent: IM-client/OMA1.0 HW-Rto/V1.0
+Content-Type: application/sdp
+Content-Length: 488
+
+v=0
+o=rue 3204 3205 IN IP6 2001:468:3000:2:2001:468:3000:2
+s=-
+c=IN IP6 2001:468:3000:2:2001:468:3000:2
+b=AS:49
+b=RR:0
+b=RS:0
+t=0 0
+m=audio 31008 RTP/AVP 107 101
+b=AS:49
+b=RR:0
+b=RS:0
+a=rtpmap:107 AMR-WB/16000/1
+a=fmtp:107 mode-change-capability=2;max-red=0
+a=rtpmap:101 telephone-event/16000
+a=fmtp:101 0-15
+a=ptime:20
+a=maxptime:240
+a=sendrecv
+a=curr:qos local sendrecv
+a=curr:qos remote none
+a=des:qos mandatory local sendrecv
+a=des:qos optional remote sendrecv
+
+SIP/2.0 200 OK
+Via: SIP/2.0/TCP [2001:468:3000:2:2001:468:3000:2]:31879;branch=z9hG4bKttecbRn7IG9P72caaO8v;rport
+From: <sip:001010123456789@ims.mnc001.mcc001.3gppnetwork.org>;tag=qqecbBv
+To: "0600000123" <tel:0600000123;phone-context=ims.mnc001.mcc001.3gppnetwork.org>;tag=6499557184ea2fc3
+Call-ID: dpecbBvJ0@[2001:468:3000:2:2001:468:3000:2]
+CSeq: 3 UPDATE
+Contact: <sip:001010123456789@[2001:468:3000:1::]:36652>
+Content-Type: application/sdp
+Allow: REGISTER,SUBSCRIBE,INVITE,ACK,CANCEL,PRACK,UPDATE,BYE,MESSAGE
+Max-Forwards: 70
+Supported: sec-agree
+Security-Server: ipsec-3gpp;prot=esp;mod=trans;spi-c=2437875;spi-s=2437876;port-c=50205;port-s=36652;alg=hmac-sha-1-96;ealg=null
+Server: Amarisoft-IMS-2020-09-14
+Supported: 100rel,precondition
+Content-Length:   489
+
+v=0
+o=Amarisoft-IMS-2020-09-14 952804597306 2 IN IP6 2001:468:3000:1::
+s=Amarisoft-IMS-2020-09-14
+c=IN IP6 2001:468:3000:1::
+t=0 0
+m=audio 10006 RTP/AVP 107 101
+b=AS:49
+b=RS:0
+b=RR:0
+a=rtpmap:107 AMR-WB/16000/1
+a=fmtp:107 mode-change-capability=2;max-red=0
+a=rtpmap:101 telephone-event/16000
+a=fmtp:101 0-15
+a=ptime:20
+a=maxptime:240
+a=sendrecv
+a=curr:qos local sendrecv
+a=curr:qos remote sendrecv
+a=des:qos mandatory local sendrecv
+a=des:qos mandatory remote sendrecv
+SIP/2.0 180 Ringing
+Via: SIP/2.0/TCP [2001:468:3000:2:2001:468:3000:2]:31879;branch=z9hG4bKrrecbBvJ0qfrnkbaaq8v;rport
+From: <sip:001010123456789@ims.mnc001.mcc001.3gppnetwork.org>;tag=qqecbBv
+To: "0600000123" <tel:0600000123;phone-context=ims.mnc001.mcc001.3gppnetwork.org>;tag=6499557184ea2fc3
+Call-ID: dpecbBvJ0@[2001:468:3000:2:2001:468:3000:2]
+CSeq: 1 INVITE
+Contact: <sip:001010123456789@[2001:468:3000:1::]:36652>
+Max-Forwards: 70
+Supported: sec-agree
+Security-Server: ipsec-3gpp;prot=esp;mod=trans;spi-c=2437875;spi-s=2437876;port-c=50205;port-s=36652;alg=hmac-sha-1-96;ealg=null
+Server: Amarisoft-IMS-2020-09-14
+Content-Length: 0
+
+SIP/2.0 200 OK
+Via: SIP/2.0/TCP [2001:468:3000:2:2001:468:3000:2]:31879;branch=z9hG4bKrrecbBvJ0qfrnkbaaq8v;rport
+From: <sip:001010123456789@ims.mnc001.mcc001.3gppnetwork.org>;tag=qqecbBv
+To: "0600000123" <tel:0600000123;phone-context=ims.mnc001.mcc001.3gppnetwork.org>;tag=6499557184ea2fc3
+Call-ID: dpecbBvJ0@[2001:468:3000:2:2001:468:3000:2]
+CSeq: 1 INVITE
+Contact: <sip:001010123456789@[2001:468:3000:1::]:36652>
+Max-Forwards: 70
+Supported: sec-agree
+Security-Server: ipsec-3gpp;prot=esp;mod=trans;spi-c=2437875;spi-s=2437876;port-c=50205;port-s=36652;alg=hmac-sha-1-96;ealg=null
+Server: Amarisoft-IMS-2020-09-14
+Session-ID: 1a93f22c9d657a55
+Content-Length: 0
+
+
+ACK sip:001010123456789@[2001:468:3000:1::]:36652 SIP/2.0
+From: <sip:001010123456789@ims.mnc001.mcc001.3gppnetwork.org>;tag=qqecbBv
+To: "0600000123"<tel:0600000123;phone-context=ims.mnc001.mcc001.3gppnetwork.org>;tag=6499557184ea2fc3
+Contact: <sip:001010123456789@[2001:468:3000:2:2001:468:3000:2]:31879>;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+Supported: 100rel,histinfo,join,norefersub,precondition,replaces,timer,sec-agree
+Require: sec-agree
+Proxy-Require: sec-agree
+Security-Verify: ipsec-3gpp;prot=esp;mod=trans;spi-c=2437875;spi-s=2437876;port-c=50205;port-s=36652;alg=hmac-sha-1-96;ealg=null
+Call-ID: dpecbBvJ0@[2001:468:3000:2:2001:468:3000:2]
+CSeq: 1 ACK
+Max-Forwards: 70
+Via: SIP/2.0/UDP [2001:468:3000:2:2001:468:3000:2]:31879;branch=z9hG4bKquecbRn7IG9P72caaWda;rport
+User-Agent: IM-client/OMA1.0 HW-Rto/V1.0
+Content-Length: 0
+
+
+BYE sip:001010123456789@ims.mnc001.mcc001.3gppnetwork.org SIP/2.0
+Via: SIP/2.0/UDP [2001:468:3000:1::]:36652;branch=z9hG4bKe4f4fe569
+Route: <sip:[2001:468:3000:2:2001:468:3000:2]:31351;lr>
+From: "0600000123" <tel:0600000123;phone-context=ims.mnc001.mcc001.3gppnetwork.org>;tag=6499557184ea2fc3
+To: <sip:001010123456789@ims.mnc001.mcc001.3gppnetwork.org>;tag=qqecbBv
+Call-ID: dpecbBvJ0@[2001:468:3000:2:2001:468:3000:2]
+CSeq: 1 BYE
+Allow: REGISTER,SUBSCRIBE,INVITE,ACK,CANCEL,PRACK,UPDATE,BYE,MESSAGE
+Accept-Contact: *;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+Supported: 100rel
+User-Agent: Amarisoft-IMS-2020-09-14
+Max-Forwards: 70
+Reason: SIP ;cause=200;text="Terminated"
+Content-Length: 0
+
+
+SIP/2.0 200 OK
+From: "0600000123"<tel:0600000123;phone-context=ims.mnc001.mcc001.3gppnetwork.org>;tag=6499557184ea2fc3
+To: <sip:001010123456789@ims.mnc001.mcc001.3gppnetwork.org>;tag=qqecbBv
+Call-ID: dpecbBvJ0@[2001:468:3000:2:2001:468:3000:2]
+CSeq: 1 BYE
+Supported: 100rel,histinfo,join,norefersub,precondition,replaces,timer
+P-Access-Network-Info: 3GPP-E-UTRAN-FDD;utran-cell-id-3gpp=0010100011A2D001
+Via: SIP/2.0/UDP [2001:468:3000:1::]:36652;branch=z9hG4bKe4f4fe569
+User-Agent: IM-client/OMA1.0 HW-Rto/V1.0
+Content-Length: 0
+
