@@ -525,7 +525,7 @@ Nakon što su ovi parametri uneseni i postavke spremljene, SIP poruke će postat
 U Wireshark fajlu *VoLTE_poziv* je snimljeni saobraćaj uspostave *VoLTE* poziva između dva uređaja povezanih na baznu stanicu. Jedna od mnogih prednosti *Wireshark*-a jeste i njegova mogućnost kreiranje MSC dijagrama od snimljenog saobraćaja. U meniju *Telephony*, odabirom opcije *VoIP calls*
 
 <p align="center">
-  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/VOIP_CALLS.png" alt="*VoLTE* invite" width="700" />
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/VOIP_CALLS.png" alt="*VoLTE* invite" width="900" />
 </p>
 <p align="center">
   <em>VoLTE invite</em>
@@ -554,7 +554,7 @@ Sa prethodne slike vidimo da su 3 instance u upostavi poziva. Ukoliko se analizi
 U prvom koraku, mobilni uređaj koji želi uspostaviti poziv, šalje *INVITE SDP* prema SIP serveru. Zatim SIP server proslijeđuje *INVITE SDP* prema ciljnom mobilnom uređaju. Nadalje, SIP server proslijeđuje *INVITE* prema uređaju sa kojim pozivalac želi uspotaviti poziv.
 
 <p align="center">
-  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/VoLTE_2dio.png" alt="VoLTE" width="700" />
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/VoLTE_2dio.png" alt="VoLTE" width="900" />
 </p>
 <p align="center">
   <em>VoLTE Wireshark</em>
