@@ -661,6 +661,17 @@ Na ovoj slici prikazan je SIP 200 OK odgovor, kojim se potvrđuju dogovoreni par
 
 U fajlu *VoNR_poziv_PJSUA* je sadržan snimljeni saobraćaj prilikom uspostave *VoNR* poziva, korištenjem *pjsua* klijenta. 
 
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/VoNR_msc.png" alt="*VoLTE* invite" width="900" />
+</p>
+<p align="center">
+  <em>MSC dijagram VoNR poziva</em>
+</p>
+
+
+
+
+
 Kada korisnik pozove broj koji je konfigurisan za automatski odgovor, proces započinje standardnom SIP signalizacijom, gdje uređaj inicijatora šalje SIP INVITE poruku sa SDP-om prema IMS modul. SDP u ovoj poruci pregovara audio parametre, kao što su podržani kodeci poput AMR-WB (kodek za zvuk) i AMR, kako bi se omogućilo dekodiranje unaprijed snimljenog odgovora.
 
 Po prijemu INVITE poruke, IMS modul odgovara sa 100 Trying, čime se potvrđuje da je zahtjev primljen i prosljeđuje se serveru odgovornom za automatizirani odgovor. Server zatim šalje povratni 183 Session Progress sa SDP-om. Ovo je ključno jer omogućava uspostavu RTP toka još prije nego što pozivatelj dobije zvučni signal "zvoni".
