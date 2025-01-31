@@ -588,8 +588,25 @@ Dodatno, poruke sadrže informacije o izvorišnoj i odredišnoj IP adresi (Sourc
   <em>SIP INVITE (SDP) - dekodiran</em>
 </p>
 
+Unutar SIP INVITE poruke nalazi se SDP (Session Description Protocol) segment, koji opisuje parametre sesije, uključujući medijske formate, transportne protokole i druge relevantne karakteristike komunikacije. Analizom SDP-a moguće je dobiti ključne informacije o strukturi i performansama sesije.
 
+Jedan od prvih elemenata SDP-a je naziv uređaja i njegova IP adresa, koji predstavljaju entitet inicijatora sesije. SDP sadrži različite parametre propusnosti koji definišu kvalitet i stabilnost prenosa:
 
+- AS (Application Specific) – označava maksimalnu propusnost rezervisanu za RTP audio sesiju, koji je u ovom slučaju 49 kbps,
+- RR (Receiver Report Bandwidth) – propusnost potrebna za prenos RTCP kontrolnih poruka, koje se koriste za nadzor kvaliteta poziva,
+- RS (Sender Report Bandwidth) – propusnost potrebna za slanje RTCP izvještaja.
+
+Daljnjom analizom SDP-a utvrđeno je da se u ovoj sesiji koristi RTP (Real-Time Transport Protocol) za prenos audio podataka.
+
+Glavni kodek je AMR-WB (Adaptive Multi-Rate Wideband) na 16 kHz, što omogućava HD Voice kvalitet. Ovaj kodek osigurava jasniji i prirodniji zvuk tokom razgovora.
+Parametar mode-change-capability=2 omogućava dinamičku promjenu brzine kodiranja, prilagođavajući se mrežnim uslovima kako bi se osigurao optimalan kvalitet zvuka.
+Rezervna opcija je AMR kodek na 8 kHz, koji se koristi u slučaju da mreža ili uređaj sagovornika ne podržavaju AMR-WB.
+
+Osim osnovnih audio karakteristika, SDP poruka definiše i dodatne mogućnosti, uključujući:
+
+- DTMF (Dual-Tone Multi-Frequency) podršku,
+- Paketizaciju (ptime=20 ms) – RTP paketi se šalju svakih 20 ms,
+- Dvosmjernu komunikaciju (sendrecv) – ovaj parametar označava da oba učesnika mogu istovremeno govoriti i slušati.
 
 <p align="center">
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/SIP_183_dekodiran.png" alt="VoLTE" width="900" />
