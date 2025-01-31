@@ -581,6 +581,15 @@ Dodatno, poruke sadrže informacije o izvorišnoj i odredišnoj IP adresi (Sourc
   <em>SIP INVITE - dekodiran</em>
 </p>
 
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/SIP_invite_SDP_dekodiran.png" alt="VoLTE" width="900" />
+</p>
+<p align="center">
+  <em>SIP INVITE (SDP) - dekodiran</em>
+</p>
+
+
+
 
 <p align="center">
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/SIP_183_dekodiran.png" alt="VoLTE" width="900" />
