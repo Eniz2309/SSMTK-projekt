@@ -589,6 +589,13 @@ Dodatno, poruke sadrže informacije o izvorišnoj i odredišnoj IP adresi (Sourc
   <em>SIP INVITE (SDP) - dekodiran</em>
 </p>
 
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/predlaganje_parametara.png" alt="VoLTE" width="900" />
+</p>
+<p align="center">
+  <em>Predlaganje parametara</em>
+</p>
+
 Unutar SIP INVITE poruke nalazi se SDP (Session Description Protocol) segment, koji opisuje parametre sesije, uključujući medijske formate, transportne protokole i druge relevantne karakteristike komunikacije. Analizom SDP-a moguće je dobiti ključne informacije o strukturi i performansama sesije.
 
 Jedan od prvih elemenata SDP-a je naziv uređaja i njegova IP adresa, koji predstavljaju entitet inicijatora sesije. SDP sadrži različite parametre propusnosti koji definišu kvalitet i stabilnost prenosa:
@@ -616,6 +623,16 @@ Osim osnovnih audio karakteristika, SDP poruka definiše i dodatne mogućnosti, 
   <em>SIP 183 Session Progress - dekodiran</em>
 </p>
 
+
+
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/promjena_porta.png" alt="VoLTE" width="900" />
+</p>
+<p align="center">
+  <em>Promjena porta</em>
+</p>
+
+
 <p align="center">
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/SIP_update_dekodiran.png" alt="VoLTE" width="900" />
 </p>
@@ -629,23 +646,6 @@ Osim osnovnih audio karakteristika, SDP poruka definiše i dodatne mogućnosti, 
 <p align="center">
   <em>SIP ACK - dekodiran</em>
 </p>
-
-
-<p align="center">
-  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/predlaganje_parametara.png" alt="VoLTE" width="900" />
-</p>
-<p align="center">
-  <em>Predlaganje parametara</em>
-</p>
-
-
-<p align="center">
-  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/promjena_porta.png" alt="VoLTE" width="900" />
-</p>
-<p align="center">
-  <em>Promjena porta</em>
-</p>
-
 
 <p align="center">
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/dogovoreni_parametri.png" alt="VoLTE" width="900" />
