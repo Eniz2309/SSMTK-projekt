@@ -598,7 +598,7 @@ Dodatno, poruke sadrže informacije o izvorišnoj i odredišnoj IP adresi (Sourc
 
 Za bolju preglednost SIP streama dobijenog iz Wiresharka, potrebno je otići na Analyze → Follow → SIP Call. Ova opcija omogućava detaljan prikaz komunikacije između učesnika poziva, olakšavajući analizu signalizacije i troubleshootinga.
 
-Jedan od prvih elemenata SDP-a je naziv uređaja i njegova IP adresa, koji predstavljaju entitet inicijatora sesije. SDP sadrži različite parametre propusnosti koji definišu kvalitet i stabilnost prenosa:
+Jedan od prvih elemenata SDP poruke je naziv uređaja i njegova IP adresa, koji predstavljaju entitet inicijatora sesije. SDP poruka sadrži različite parametre propusnosti koji definišu kvalitet i stabilnost prenosa:
 
 - AS (Application Specific) – označava maksimalnu propusnost rezervisanu za RTP audio sesiju, koji je u ovom slučaju 49 kbps,
 - RR (Receiver Report Bandwidth) – propusnost potrebna za prenos RTCP kontrolnih poruka, koje se koriste za nadzor kvaliteta poziva,
@@ -655,8 +655,7 @@ Na slici se vidi SIP 183 Session Progress odgovor, koji sadrži SDP poruku. U ov
   <em>Dogovoreni parametri</em>
 </p>
 
-Na ovoj slici prikazan je SIP 200 OK odgovor, kojim se potvrđuju dogovoreni parametri multimedijalne sesije. Ovaj odgovor uključuje SDP poruku, koja potvrđuje prethodno predložene medijske parametre
-Ovim odgovorom se završava signalizacija vezana za pregovaranje sesije, čime se potvrđuje da su obje strane saglasne sa parametrima i da se može uspostaviti medijski tok.
+Na ovoj slici prikazan je SIP 200 OK odgovor, kojim se potvrđuju dogovoreni parametri multimedijalne sesije. Ovaj odgovor uključuje SDP poruku, koja potvrđuje prethodno predložene medijske parametre. Ovim odgovorom se završava signalizacija vezana za pregovaranje sesije, čime se potvrđuje da su obje strane saglasne sa parametrima i da se može uspostaviti medijski tok.
 
 ## *VoNR* poziv
 
