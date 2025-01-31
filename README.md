@@ -574,17 +574,6 @@ Detalji o pozivu se mogu vidjeti i u specifičnim porukama u samom SIP protokolu
 
 Dodatno, poruke sadrže informacije o izvorišnoj i odredišnoj IP adresi (Source i Destination), koje određuju gdje se šalju i odakle dolaze SIP poruke. User-Agent header identifikuje softverski klijent koji inicira poziv, što može biti korisno za analizu kompatibilnosti uređaja i mrežnih komponenti. Ovi podaci su ključni za razumijevanje toka signalizacije, dijagnostiku problema i optimizaciju VoLTE poziva.
 
-<p align="center">
-  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/dogovoreni_parametri.png" alt="VoLTE" width="900" />
-</p>
-<p align="center">
-  <em>Dogovreni parametri</em>
-</p>
-
-
-
-
-
 
 <p align="center">
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/SIP_invite_dekodiran.png" alt="VoLTE" width="900" />
@@ -640,6 +629,32 @@ Osim osnovnih audio karakteristika, SDP poruka definiše i dodatne mogućnosti, 
 <p align="center">
   <em>SIP ACK - dekodiran</em>
 </p>
+
+
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/predlaganje_parametara.png" alt="VoLTE" width="900" />
+</p>
+<p align="center">
+  <em>Predlaganje parametara</em>
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/promjena_porta.png" alt="VoLTE" width="900" />
+</p>
+<p align="center">
+  <em>Promjena porta</em>
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/dogovoreni_parametri.png" alt="VoLTE" width="900" />
+</p>
+<p align="center">
+  <em>Dogovreni parametri</em>
+</p>
+
+
 
 
 
