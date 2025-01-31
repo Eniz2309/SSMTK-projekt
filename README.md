@@ -593,7 +593,7 @@ Dodatno, poruke sadrže informacije o izvorišnoj i odredišnoj IP adresi (Sourc
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/predlaganje_parametara.png" alt="VoLTE" width="900" />
 </p>
 <p align="center">
-  <em>Predlaganje parametara sesije</em>
+  <em>SIP stream - Predlaganje parametara sesije</em>
 </p>
 
 Za bolju preglednost SIP streama dobijenog iz Wiresharka, potrebno je otići na Analyze → Follow → SIP Call. Ova opcija omogućava detaljan prikaz komunikacije između učesnika poziva, olakšavajući analizu signalizacije i troubleshootinga.
@@ -629,7 +629,7 @@ Ovi SDP parametri predstavljaju predložene vrijednosti za uspostavljanje multim
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/promjena_porta.png" alt="VoLTE" width="900" />
 </p>
 <p align="center">
-  <em>Promjena porta</em>
+  <em>SIP stream - Promjena porta</em>
 </p>
 
 Na slici se vidi SIP 183 Session Progress odgovor, koji sadrži SDP poruku. U ovom odgovoru dolazi do promjene RTP porta – dok je u prethodnoj SDP poruci port 31008, u ovoj SDP poruci se koristi port 10006.
@@ -652,7 +652,7 @@ Na slici se vidi SIP 183 Session Progress odgovor, koji sadrži SDP poruku. U ov
   <img src="https://github.com/Eniz2309/SSMTK-projekt/blob/main/Ilustracije/dogovoreni_parametri.png" alt="VoLTE" width="900" />
 </p>
 <p align="center">
-  <em>Dogovoreni parametri</em>
+  <em>SIP stream - Dogovoreni parametri</em>
 </p>
 
 Na ovoj slici prikazan je SIP 200 OK odgovor, kojim se potvrđuju dogovoreni parametri multimedijalne sesije. Ovaj odgovor uključuje SDP poruku, koja potvrđuje prethodno predložene medijske parametre. Ovim odgovorom se završava signalizacija vezana za pregovaranje sesije, čime se potvrđuje da su obje strane saglasne sa parametrima i da se može uspostaviti medijski tok.
